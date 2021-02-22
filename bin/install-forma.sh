@@ -254,7 +254,13 @@ FLUSH PRIVILEGES;
 EXIT;
 EOF
 cd /tmp
-wget -c "https://sourceforge.net/projects/forma/files/latest/download?source=files" -O formalms-v2.0.zip 
+wget -c "https://sourceforge.net/projects/forma/files/latest/download?source=files" -O formalms-v2.0.zip
+cat > Readme.txt << EOF
+If you can read this, it means that the Forma installation script has successfully
+placed the required files in this folder, and most likely has already removed them.
+
+Take care.
+EOF
 sudo unzip -d /var/www/html/forma /tmp/formalms-v2.0.zip
 sudo chown -R www-data:www-data /var/www/html/forma/
 sudo chmod -R 755 /var/www/html/forma/
