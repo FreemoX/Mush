@@ -1,5 +1,7 @@
 #!/bin/bash
 
+read -p "Do you want to install LAMP? [y/n]" installlamp
+
 mushNewLine() {
     nlines=$1
     TELLER=0
@@ -232,7 +234,11 @@ mushPrompt() {
     fi
 }
 
-mushLAMPinstall
+if [[ $installlamp == "Y" || $installlamp == "y" ]]; then
+    mushLAMPinstall
+elif [[ $installlamp == "N" || $installlamp == "n" ]]; then
+    echo "Ok, we'll skip the LAMP installation"
+fi
 
 echo ""
 echo "Use 'sudo nano /etc/php/$desiredphpversion/apache2/php.ini'"
@@ -244,27 +250,26 @@ echo "memory_limit = 256"
 echo "upload_max_filesize = 100M"
 echo "max_execution_time = 360"
 echo ""
-mushPrompt "Press 'ENTER' when the changes have been made"
+mushPrompt
 sudo systemctl restart apache2.service
-mysql -u formauser -p $mysqlsecureinstallationdatabasepass << EOF
+mysql -u formauser -p $mysqlsecureinstallationdatabasepass << ENDOFLINES
 CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
 CREATE USER 'formauser'@'localhost' IDENTIFIED BY 'Algebra2154';
 GRANT ALL ON forma.* TO 'formauser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
-EXIT;
-EOF
+ENDOFLINES
 cd /tmp
 wget -c "https://sourceforge.net/projects/forma/files/latest/download?source=files" -O formalms-v2.0.zip
-cat > Readme.txt << EOF
+cat > Readme.txt << ENDOFLINES
 If you can read this, it means that the Forma installation script has successfully
 placed the required files in this folder, and most likely has already removed them.
 
 Take care.
-EOF
+ENDOFLINES
 sudo unzip -d /var/www/html/forma /tmp/formalms-v2.0.zip
 sudo chown -R www-data:www-data /var/www/html/forma/
 sudo chmod -R 755 /var/www/html/forma/
-cat > /etc/apache2/sites-available/forma.cnf << EOF
+cat > /etc/apache2/sites-available/forma.cnf << ENDOFLINES
 <VirtualHost *:80>
      ServerAdmin fr@norditc.no
      DocumentRoot /var/www/html/forma/formalms
@@ -287,7 +292,7 @@ cat > /etc/apache2/sites-available/forma.cnf << EOF
             RewriteRule ^(.*) index.php [PT,L]
     </Directory>
 </VirtualHost>
-EOF
+ENDOFLINES
 sudo a2ensite forma.conf
 sudo a2enmod rewrite
 sudo systemctl restart apache2.service
