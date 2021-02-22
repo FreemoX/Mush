@@ -127,15 +127,17 @@ mushLAMPinstall() {
     echo ""
     sudo apt install mariadb-server mariadb-client -y
     mushNewLine 3
-    mushApacheComSummary echo ""
+    mushApacheComSummary 
+    echo ""
     read -p "Press any key to continue" i
     i=""
     mushNewLine 3
     clear
     echo "You will now be guided through the secure"
-    echo "database installation for Marsudo a2ensite forma.conf
-sudo a2enmod rewrite
-sudo systemctl restart apache2.serviceaDB."
+    echo "database installation for Marsudo a2ensite forma.conf"
+    sudo a2enmod rewrite
+    sudo systemctl restart apache2.service
+    sudo systemctl restart mariadb.service
     echo ""
     echo "Press \"Y\" on any questions asked."
     echo "Please remember the password you will input."
@@ -244,8 +246,7 @@ echo "max_execution_time = 360"
 echo ""
 mushPrompt "Press 'ENTER' when the changes have been made"
 sudo systemctl restart apache2.service
-whoami=$(whoami)
-mysql -u $whoami -p $mysqlsecureinstallationdatabasepass << EOF
+mysql -u formauser -p $mysqlsecureinstallationdatabasepass << EOF
 CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
 CREATE USER 'formauser'@'localhost' IDENTIFIED BY 'Algebra2154';
 GRANT ALL ON forma.* TO 'formauser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
