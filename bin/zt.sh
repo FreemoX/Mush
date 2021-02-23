@@ -1,5 +1,16 @@
 #!/bin/bash
-ztID="159924d6305f5d89"
+
+echo "Remember you can specify the network ID"
+echo "after calling this script, eg: "
+echo "./zt.sh <NETWORKID>"
+echo ""
+read -s -p "Press any key to continue" i && i=""
+
+if [ $# -gt 0 ]; then
+    ztID=$1
+else
+    ztID="159924d6305f5d89"
+fi
 
 clear
 echo "Laster ned og installerer ZeroTier Klienten"

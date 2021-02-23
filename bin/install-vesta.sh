@@ -1,6 +1,8 @@
 #!/bin/bash
 grep VERSION_ID= /etc/os-release
 echo "Highest release compatible: 18.10"
+echo "We recommend using Ubuntu 18.04 LTS"
+echo ""
 read -s -p "Press any key to continue, or 'CTRL + C' to abort"
 sudo apt update && sudo apt upgrade && sudo apt install curl nginx -y && wait && sleep 1
 cd /tmp
