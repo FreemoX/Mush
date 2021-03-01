@@ -11,11 +11,20 @@ productsfound=0
 productsnotfound=0
 productssearched=0
 
+here="$($pwd)"
+
 _NOTFOUND="Ikke funnet"
 
 logfile="webscrape-komplett.log"
 workfile="tmp_file"
 extractfile="komplett.no-extractData.csv"
+
+deps=(\
+"cat" \
+"cut" \
+"grep" \
+"lynx" \
+)
 
 # grep -A(fter) 1(additional line)
 # sed '1d'                          Remove the first line
@@ -82,6 +91,35 @@ writetolog() {
     fi
 }
 
+checkinstalledfunc() {
+    cmdtt=""
+    cmdttr="-1"
+    cmdtt="$1"
+    if ! command -v "$cmdtt" &> /dev/null
+    then
+        echo ""$cmdtt" could not be found"
+        cmdttr="0"
+        echo "Attempting to install "$cmdtt""
+        sudo apt update && sudo apt install "$cmdtt" -y
+    else
+        echo ""$cmdtt" is installed"
+        cmdttr="1"
+    fi
+}
+
+checkinstalled() {
+    checkinstalledfunc lynx && wait
+    cmdttrLynx=$cmdttr
+    checkinstalledfunc grep && wait
+    cmdttrGrep=$cmdttr
+    checkinstalledfunc cut && wait
+    cmdttrCut=$cmdttr
+    checkinstalledfunc cat && wait
+    cmdttcat=$cmdttr
+    echo "" && echo ""
+}
+
+checkinstalled
 writetolog start
 
 # checkargs         # Function has not yet been completely implemented, and has thus been disabled
