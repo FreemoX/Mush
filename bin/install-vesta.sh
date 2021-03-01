@@ -8,7 +8,7 @@ sudo apt update && sudo apt upgrade && sudo apt install curl nginx -y && wait &&
 cd /tmp
 sudo curl -O http://vestacp.com/pub/vst-install.sh && wait && sleep 1
 #sduo bash ./vst-install.sh && wait && sleep 5
-bash vst-install.sh --nginx yes --apache yes --phpfpm no --named no --remi yes --vsftpd yes --proftpd no --iptables yes --fail2ban yes --quota no --exim yes --dovecot yes --spamassassin yes --clamav yes --softaculous yes --mysql yes --postgresql no --hostname localhost --email fr@norditc.no --password Algebra2154 && wait && sleep 5
+bash vst-install.sh --nginx yes --apache yes --phpfpm no --named no --remi yes --vsftpd yes --proftpd no --iptables yes --fail2ban yes --quota no --exim yes --dovecot yes --spamassassin yes --clamav yes --softaculous yes --mysql yes --postgresql no --hostname localhost --email nord@norditc.no --password DefaultPassword123 && wait && sleep 5
 sudo ufw enable && wait
 sudo ufw allow 8083 && wait
 sudo ufw allow 'Nginx HTTP'

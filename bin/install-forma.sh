@@ -254,8 +254,8 @@ mushPrompt
 sudo systemctl restart apache2.service
 mysql -u formauser -p $mysqlsecureinstallationdatabasepass << ENDOFLINES
 CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
-CREATE USER 'formauser'@'localhost' IDENTIFIED BY 'Algebra2154';
-GRANT ALL ON forma.* TO 'formauser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
+CREATE USER 'formauser'@'localhost' IDENTIFIED BY 'DefaultPassword123';
+GRANT ALL ON forma.* TO 'formauser'@'localhost' IDENTIFIED BY 'DefaultPassword123' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ENDOFLINES
 cd /tmp
