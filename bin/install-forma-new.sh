@@ -49,6 +49,9 @@ installphp php7.0
 updatePHPini 7.0
 sudo systemctl restart apache2.service
 sudo mysql -u root -p <<ENDOFLINES
+DROP DATABASE forma;
+DROP USER 'formalmsuser'@'localhost';
+DROP USER 'extformalmsuser'@'%';
 CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
 CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
 CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
