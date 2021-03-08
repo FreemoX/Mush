@@ -48,25 +48,18 @@ sudo apt update
 installphp php7.0
 updatePHPini 7.0
 sudo systemctl restart apache2.service
-sudo mysql <<ENDOFLINES 2> /dev/null CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
-ENDOFLINES
+sudo mysql -e CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
 [ $? -eq 0 ] && echo "Databasen forma ble opprettet" || echo "Databasen forma eksisterer allerede"
-sudo mysql <<ENDOFLINES 2> /dev/null CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
-ENDOFLINES
+sudo mysql -e CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
 [ $? -eq 0 ] && echo "Opprettet brukeren formalmsuser tilgjengelig fra localhost" || echo "Brukeren formalmsuser eksisterer allerede"
-sudo mysql <<ENDOFLINES 2> /dev/null CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
-ENDOFLINES
+sudo mysql -e CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
 [ $? -eq 0 ] && echo "Opprettet brukeren extformalmsuser tilgjengelig fra over alt" || echo "Brukeren extformalmsuser eksisterer allerede"
-sudo mysql <<ENDOFLINES 2> /dev/null GRANT ALL ON forma.* TO 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
-ENDOFLINES
+sudo mysql -e GRANT ALL ON forma.* TO 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
 [ $? -eq 0 ] && echo "Brukeren formalmsuser (lokal) har fått tilgang til databasen forma" || echo "Brukeren formalmsuser (lokal) fikk ikke tilgang til databasen forma"
-sudo mysql <<ENDOFLINES 2> /dev/null GRANT ALL ON forma.* TO 'formalmsuser'@'%' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
-ENDOFLINES
+sudo mysql -e GRANT ALL ON forma.* TO 'formalmsuser'@'%' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
 [ $? -eq 0 ] && echo "Brukeren extformalmsuser (ekstern) har fått tilgang til databasen forma" || echo "Brukeren extformalmsuser (ekstern) fikk ikke tilgang til databasen forma"
-sudo mysql <<ENDOFLINES 2> /dev/null FLUSH PRIVIEGES;
-ENDOFLINES
-sudo mysql <<ENDOFLINES 2> /dev/null EXIT;
-ENDOFLINES
+sudo mysql -e FLUSH PRIVIEGES;
+sudo mysql -e EXIT;
 cd /tmp
 sudo apt install wget -y
 wget -c "https://sourceforge.net/projects/forma/files/latest/download?source=files" -O formalms-v2.0.zip
@@ -119,5 +112,4 @@ echo ""
 sudo cp /var/www/html/install /home/norditc/formalmsinstall -r
 sudo rm /var/www/html/install -r
 echo "Installasjonsmappen er nå flyttet til hjemmappen for norditc brukeren, just in case"
-sudo rm formalms-v2.0.zip
-exit;
+cd /tmp && sudo rm formalms-v2.0.zip
