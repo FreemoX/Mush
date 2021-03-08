@@ -1,0 +1,1 @@
+        dataLayer.push({"productId":"1","ecomm_prodid":"1","ecomm_pagetype":"product","ecomm_totalvalue":0.0,"ecomm_shelfPrice":0.0,"porterbuddyDiscount":12000.00000,"porterbuddyAvailabilityErrorText":"Porterbuddy-levering samme dag er ikke mulig til postnummer [[postcode]]. PostNord eller Bring er selvsagt tilgjengelig som valg i kassen."});

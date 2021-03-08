@@ -1,0 +1,1357 @@
+
+
+<!DOCTYPE html>
+<html lang="no" data-viewmodel="Layout/LayoutViewModel" data-bind="disableScrolling: disableScrolling, css: {'scroll-lock-sm': lockScrollOnBodySm,'scroll-lock-xs': lockScrollOnBodyXs, 'scroll-lock': lockScrollOnBody, 'megaMobileNavOpen' : megaMobileNavOpen}">
+    <head>
+        <!--  Hey there! Thanks for looking :) -->
+            <script>
+        var dataLayer = dataLayer || [];
+
+            dataLayer.push({"externalABtesting":"true","environment":"production"});
+    </script>
+
+<script>
+    window.GTM = {
+        GoogleTagManagerId: 'GTM-P8Z65RZ'
+    };
+</script>
+    <script async src="/static/chrome/2544.0.0/JsBundles/gtmdataLayer-bundle.js"></script>
+
+
+    <script async src="https://www.googleoptimize.com/optimize.js?id=GTM-5BZLBVP"></script>
+
+
+        
+        
+
+<title>1 - Komplett.no</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="version" content="2544.0.0" />
+    <meta name="title" content="1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="verify-v1" content="3ah3/lV0k+37hLaCo5nt53Rfkq1oJp777TxSIE5PkhU=" />
+    <meta name="verify-v1" content="pHqUvL8NIGVW5rZSTpnYCQsHRmo+jB2KUoIGWs2X4CQ=" />
+    <meta name="google-site-verification" content="ukuKGt1aygFGYSTJ7-77UFgubbfDHd2CxXNYrvqIIEM" />
+    <meta name="msapplication-navbutton-color" content="#f8b912" />
+    <meta name="msapplication-TileColor" content="#f8b912" />
+    <meta name="theme-color" content="#f8b912" />
+    <meta name="description" content="" />
+
+
+    <meta property="fb:app_id" content="225775140915409" />
+    <meta property="fb:admins" content="791175345" />
+    <meta property="fb:pages" content="69170057074" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.komplett.no/api/internal/chrome/layout/prerenderv2" />
+    <meta property="og:title" content="1" />
+    <meta property="og:description" content="" />
+<meta property="og:image" content="https://www.komplett.no/img/p/200/1.jpg" />
+<meta property="og:image:secure_url" content="https://www.komplett.no/img/p/200/1.jpg" />
+
+
+    <link rel="shortcut icon" href="/logo/310/favicon.ico" />
+    <link rel="apple-touch-icon" href="/logo/310/apple-touch-icon.png" />
+
+<link rel="image_src" href="/img/p/200/1.jpg" />
+
+
+
+<link rel="alternate" type="application/atom+xml" title="Nye produkter" href="/atom/latest/cataloged">
+<link rel="alternate" type="application/atom+xml" title="Nytt p&#229; lager" href="/atom/latest/stocked">
+
+    <link rel="stylesheet" href="/static/chrome/2544.0.0/Responsive/Styles/310/style-full.css" />
+    <link rel="stylesheet" href="/static/chrome/2544.0.0/JsBundles/jscomponents-bundle.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
+
+
+
+<!--[if (lte IE 9)]>
+    <script src="/lib/matchMedia/matchMedia.js"></script>
+<![endif]-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.min.js" defer nomodule></script>
+
+
+
+
+
+<script 
+    data-viewmodel="PageDependentComponents/BreakpointNotifier/BreakpointNotifierViewModel" 
+    data-initobject="{&quot;fullResponsive&quot;:true}">
+</script>
+
+        
+    <link rel="canonical" href="https://www.komplett.no/product/1" />
+    
+
+    
+                          <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="UCM38-DMTDJ-R233Y-Z9JNZ-4AQ6J",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"UCM38-DMTDJ-R233Y-Z9JNZ-4AQ6J",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ltoc57tijmhfwyb43gfa-f-11386a5ca-clientnsv4-s.akamaihd.net",i={"ak.v":"30","ak.cp":"898198","ak.ai":parseInt("420319",10),"ak.ol":"0","ak.cr":48,"ak.ipv":4,"ak.proto":"h2","ak.rid":"14462a70","ak.r":23668,"ak.a2":e,"ak.m":"b","ak.n":"essl","ak.bpcip":"92.220.46.0","ak.cport":39280,"ak.gh":"80.239.236.21","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1614600586","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==n/sfL45zREgFhsG07jMMA6aTKsjfkOBTG6SCQqMRj6GvHXplaEG7CJwdGWo1uPVbLZeGwXYcTvQ67rtGoR/vx4IHUq+ZnOqGswHPYmsiFChkaURH5uDpqQroUBdwI2xvpaf4hUeVeTj9Q3bT7dddlQVkVTT2HEV1QkcPQPNdZJ38U2/R96iO3i9vH+SVckXq1gc8lVTYdXVCgsVsmG6Kn0/1xpd+3m8JnoDRzW7KUTrFyoXck11zC+x1BgwKHjXuGJh3J/JPKMyriNFfgVr2tQb722K5/2X75Mtid02dOvtA9yslIMHwNc/6F5618Y9FmX/6SIjrvrzIYQuiCYHmHj2biEHG9Izp8ST8ujjq7PAY9UTclpcj6clpybAmfgIDDqg36CQdpQyItA9q0h692fZnHJlXI6DA2Sw7CCOD0xo=","ak.pv":"302","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var _={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!_.i){var a=BOOMR.subscribe;a("before_beacon",_.av,null,null),a("onbeacon",_.rv,null,null),_.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+    <body class="svg">
+        <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-P8Z65RZ" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+</noscript>
+
+        <script>
+    if ('ontouchstart' in document || window.navigator.msMaxTouchPoints > 0) {
+        document.body.setAttribute('data-touch', true);
+    } else {
+        document.body.setAttribute('data-touch', false);
+    }    
+</script>
+        <div class="caas">
+            
+            <div data-viewmodel="ksc-ubo/uboService" data-bind="template: { name: 'ubo-template', foreach: ubos, lastDeletedVm: lastDeletedVm, closeLatest: closeLatest}"></div>
+
+<script type="text/html" id="ubo-template">
+    <div class="ubo" data-bind="uboKeyTrap: {keyTrap: contentRendered, scope: '.ubo-box' }, css: uboClasses">
+        <div class="ubo-position-wrapper" data-bind="uboMove: { actionElement: actionElement,
+                                                            topLeft: topLeft}">
+                <div class="overlay fixed" data-bind="visible: open, click: closeOnBackgroundClick, style: {&#39;zIndex&#39;: zIndex}" style="display:none"></div>
+
+            <div class="ubo-center-position-wrapper" data-bind="style: {'zIndex': (zIndex+1)}">
+                <div class="ubo-box scroll" data-bind="style: {'zIndex': (zIndex+1)},
+                                        positionCalculator: {
+                                                             actionElement: actionElement,
+                                                             topLeft: topLeft,
+                                                             open: open,
+                                                             id: id,
+                                                             ubos: uboService.ubos,
+                                                             screenIsXs: screenIsXs,
+                                                             contentRendered: contentRendered,
+                                                             neverOpenUpwards: neverOpenUpwards
+                                        }">
+                    <div class="ubo-header">
+                        <strong class="ubo-header-text" data-bind="text: header"></strong>
+                        <a class="ubo-close-button" title="Lukk" href="" data-bind="visible: !isOkCancelDialog,
+                                                               click: close,
+                                                               uboOnKeyUp: { 'name': 'uboClose', 'do': closeLatest,'key': 27, when: !isOkCancelDialog }" aria-label="Lukk">
+                            <span class="ubo-close-icon"></span>
+                        </a>
+                    </div>
+                    <div class="ubo-content" data-bind="component: { name: componentId,
+                                                            params: {
+                                                                uboService: uboService
+                                                            }
+                                                        }, uboContentRendered: contentRendered ">
+                    </div>
+                    <div class="ubo-modal-footer" style="display: none;" data-bind="if: isOkCancelDialog, visible: isOkCancelDialog">
+                        <a class="btn-medium flat pull-left cancel" href="" data-bind="click: cancel, uboNonEmptyText: cancelButtonString">Avbryt</a>
+                        <a class="btn-medium flat pull-right" href="" data-bind="click: accept, uboNonEmptyText: acceptButtonString, hasfocus: true">Bekrefte</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+            
+            
+            
+<link rel="stylesheet" href="/static/caas/0.56.0/dist/styles_310.css">
+
+<div id="caas-header"><div><div style="display:none;z-index:" class="overlay-caas "></div></div><span></span><nav class="caas__navbar hide-md hide-lg"><div class="caas__navbar--items"><a class="icon-button " href="/kundeservice/"><div class="icon-button__container"><svg width="16" height="16" viewBox="0 0 16 16"><path fill="#333" d="M12.95 2.050c-1.322-1.322-3.080-2.050-4.95-2.050s-3.628 0.728-4.95 2.050-2.050 3.080-2.050 4.95v3.5c0 0.828 0.672 1.5 1.5 1.5s1.5-0.672 1.5-1.5v-2c0-0.828-0.672-1.5-1.5-1.5-0.168 0-0.329 0.028-0.479 0.079v-0.079c0.255-3.075 2.839-5.5 5.979-5.5s5.724 2.425 5.979 5.5v0.079c-0.15-0.051-0.311-0.079-0.479-0.079-0.828 0-1.5 0.672-1.5 1.5v2c0 0.828 0.672 1.5 1.5 1.5 0.175 0 0.344-0.030 0.5-0.086v1.586c0 0.276-0.224 0.5-0.5 0.5h-2.586c-0.206-0.583-0.761-1-1.414-1-0.828 0-1.5 0.672-1.5 1.5s0.672 1.5 1.5 1.5c0.653 0 1.208-0.417 1.414-1h2.586c0.827 0 1.5-0.673 1.5-1.5v-6.5c0-1.87-0.728-3.628-2.050-4.95z"></path></svg></div><span aria-label="Kundeservice" class="icon-button__label   undefined">Kundeservice</span></a><a class="icon-button " href="/wishlist"><div class="icon-button__container"><svg width="16" height="16" viewBox="0 0 16 16"><path fill="#333" d="M16 5.596c0-2.538-2.058-4.596-4.596-4.596-1.349 0-2.563 0.582-3.404 1.508-0.841-0.926-2.054-1.508-3.404-1.508-2.538 0-4.596 2.058-4.596 4.596 0 1.349 0.582 2.563 1.508 3.404h-0.008l5 5c0.5 0.5 1 1 1.5 1s1-0.5 1.5-1l4.992-5c0.926-0.841 1.508-2.054 1.508-3.404zM13.148 7.519l-5.062 5.067c-0.026 0.026-0.055 0.055-0.086 0.086-0.031-0.030-0.060-0.059-0.086-0.086l-5.062-5.066c-0.549-0.499-0.852-1.182-0.852-1.923 0-1.432 1.165-2.596 2.596-2.596 0.741 0 1.424 0.303 1.923 0.852l1.481 1.631 1.481-1.631c0.499-0.55 1.182-0.852 1.923-0.852 1.432 0 2.596 1.165 2.596 2.596 0 0.741-0.303 1.424-0.852 1.923z"></path></svg></div><span aria-label="Ønskelister" class="icon-button__label   undefined">Ønskelister</span></a><a class="icon-button " href="https://www.komplettbedrift.no/"><div class="icon-button__container"><div data-testid="buttonIcon" class="icon-button__icon icomoon-office-2 undefined"></div></div><span aria-label="Komplett Bedrift" class="icon-button__label hide-xs hide-sm  undefined">Komplett Bedrift</span><span class="hide-md icon-button__label">Bedrift</span></a></div></nav><header class="navigation-header"><section class="caas__header"><div class="header__row header__wrapper--top"><div class="header__row--top"><div class="header__logo--wrapper"><a href="/" class="header__logo" data-automationid="headerMenu.logo"><picture><source media="(min-width: 992px)" srcSet="/logo/310/logo_b2c.svg"/><source media="(max-width: 992px)" srcSet="/logo/310/no_payoff/logo_b2c.svg"/><img class="header__logo--image" src="/logo/310/logo_b2c.svg" alt="Til forsiden"/></picture></a></div><div class="search-container"><div class="search-input"><form role="search" action="/search"><label for="caasSearchInput" class="hidden-visible-SR">Søk</label><input name="q" autoComplete="off" id="caasSearchInput" accessKey="4" placeholder="Søk blant 19796 produkter" data-automationid="headerMenu.search" value=""/><div class="search-input__icon"><svg width="16" height="16" viewBox="0 0 16 16"><path fill="#333" d="M9.962 8.716c0.653-0.905 1.038-2.015 1.038-3.216 0-3.038-2.462-5.5-5.5-5.5s-5.5 2.462-5.5 5.5 2.462 5.5 5.5 5.5c1.201 0 2.312-0.385 3.216-1.038l5.284 6.038 2-2-6.038-5.284zM5.5 9.5c-2.209 0-4-1.791-4-4s1.791-4 4-4c2.209 0 4 1.791 4 4s-1.791 4-4 4z"></path></svg></div></form></div><section class="search-result__container"><div class="search-result"><div class="result__navigation"><a class="search-result__count" href="/search?q=" tabindex="0">Gå til alle 0 treff</a><div class="search-result__close icomoon-cancel-circle2"></div></div></div></section></div><nav class="hide-xs hide-sm header__menu"><a class="icon-button " href="/wishlist" data-automationid="headerMenu.wishlist"><div class="icon-button__container"><svg width="16" height="16" viewBox="0 0 16 16"><path fill="#333" d="M16 5.596c0-2.538-2.058-4.596-4.596-4.596-1.349 0-2.563 0.582-3.404 1.508-0.841-0.926-2.054-1.508-3.404-1.508-2.538 0-4.596 2.058-4.596 4.596 0 1.349 0.582 2.563 1.508 3.404h-0.008l5 5c0.5 0.5 1 1 1.5 1s1-0.5 1.5-1l4.992-5c0.926-0.841 1.508-2.054 1.508-3.404zM13.148 7.519l-5.062 5.067c-0.026 0.026-0.055 0.055-0.086 0.086-0.031-0.030-0.060-0.059-0.086-0.086l-5.062-5.066c-0.549-0.499-0.852-1.182-0.852-1.923 0-1.432 1.165-2.596 2.596-2.596 0.741 0 1.424 0.303 1.923 0.852l1.481 1.631 1.481-1.631c0.499-0.55 1.182-0.852 1.923-0.852 1.432 0 2.596 1.165 2.596 2.596 0 0.741-0.303 1.424-0.852 1.923z"></path></svg></div><span aria-label="Ønskelister" class="icon-button__label   undefined">Ønskelister</span></a><a class="icon-button " href="/kundeservice/" data-automationid="headerMenu.customerService"><div class="icon-button__container"><svg width="16" height="16" viewBox="0 0 16 16"><path fill="#333" d="M12.95 2.050c-1.322-1.322-3.080-2.050-4.95-2.050s-3.628 0.728-4.95 2.050-2.050 3.080-2.050 4.95v3.5c0 0.828 0.672 1.5 1.5 1.5s1.5-0.672 1.5-1.5v-2c0-0.828-0.672-1.5-1.5-1.5-0.168 0-0.329 0.028-0.479 0.079v-0.079c0.255-3.075 2.839-5.5 5.979-5.5s5.724 2.425 5.979 5.5v0.079c-0.15-0.051-0.311-0.079-0.479-0.079-0.828 0-1.5 0.672-1.5 1.5v2c0 0.828 0.672 1.5 1.5 1.5 0.175 0 0.344-0.030 0.5-0.086v1.586c0 0.276-0.224 0.5-0.5 0.5h-2.586c-0.206-0.583-0.761-1-1.414-1-0.828 0-1.5 0.672-1.5 1.5s0.672 1.5 1.5 1.5c0.653 0 1.208-0.417 1.414-1h2.586c0.827 0 1.5-0.673 1.5-1.5v-6.5c0-1.87-0.728-3.628-2.050-4.95z"></path></svg></div><span aria-label="Kundeservice" class="icon-button__label   undefined">Kundeservice</span></a><div class="user-profile__wrapper"><div class="user-profile__container icon-button hide-xs" tabindex="0" data-automationid="headerMenu.userProfile" aria-expanded="false" aria-label="Min side"><div class="icon-button__container"><svg width="16" height="16" viewBox="0 0 16 16"><path fill="#333" d="M13.477 16h-10.954c-0.14 0-0.274-0.059-0.369-0.163s-0.142-0.242-0.129-0.382c0.11-1.22 0.585-2.363 1.373-3.305 0.697-0.832 1.59-1.452 2.602-1.809l0-0.475c-0.562-0.385-1.037-0.926-1.385-1.582-0.402-0.758-0.615-1.634-0.615-2.535 0-1.251 0.405-2.431 1.139-3.323 0.758-0.92 1.774-1.427 2.861-1.427s2.103 0.507 2.861 1.427c0.735 0.892 1.139 2.072 1.139 3.323 0 0.901-0.213 1.777-0.615 2.535-0.348 0.655-0.823 1.197-1.385 1.582l0 0.475c1.012 0.357 1.905 0.977 2.602 1.809 0.788 0.942 1.263 2.084 1.373 3.305 0.013 0.14-0.034 0.279-0.129 0.382s-0.229 0.163-0.369 0.163zM3.1 15h9.8c-0.164-0.81-0.527-1.565-1.064-2.208-0.649-0.776-1.504-1.33-2.471-1.604-0.215-0.061-0.364-0.257-0.364-0.481l-0-1.116c0-0.179 0.095-0.344 0.25-0.433 1.063-0.613 1.75-1.951 1.75-3.408 0-2.068-1.346-3.75-3-3.75s-3 1.682-3 3.75c0 1.457 0.687 2.795 1.75 3.408 0.155 0.089 0.25 0.254 0.25 0.433l-0 1.116c0 0.224-0.149 0.42-0.364 0.481-0.967 0.274-1.822 0.828-2.471 1.604-0.538 0.642-0.9 1.397-1.064 2.208z"></path></svg></div><span class="icon-button__label"></span></div></div><a href="/cart" class="icon-button small-cart__caas" data-automationid="headerMenu.cart" rel="nofollow"><div class="icon-button__container"><svg width="16" height="16" viewBox="0 0 16 16"><path fill="#333" d="M6 14.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5c0-0.828 0.672-1.5 1.5-1.5s1.5 0.672 1.5 1.5z"></path><path fill="#333" d="M16 14.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5c0-0.828 0.672-1.5 1.5-1.5s1.5 0.672 1.5 1.5z"></path><path fill="#333" d="M16 8v-6h-12c0-0.552-0.448-1-1-1h-3v1h2l0.751 6.438c-0.458 0.367-0.751 0.93-0.751 1.562 0 1.105 0.895 2 2 2h12v-1h-12c-0.552 0-1-0.448-1-1 0-0.003 0-0.007 0-0.010l13-1.99z"></path></svg></div><span aria-label="Handlevogn" class="icon-button__label">Handlevogn</span></a></nav></div></div><div class="header__row header__wrapper--bottom"><div class="header__row header__row--bottom"><div class="menu-navigation__root hide-xs hide-sm" data-automationid="menuNavigation.rootCell"><ul><li><button class="menu-navigation__cell menu-navigation__cell--top" data-automationid="menuNavigation.cell" type="button"><span class="menu-navigation__title"><span class="menu-navigation__icon"><svg width="16" height="16" viewBox="0 0 16 16"><path fill="#333" d="M1 3h14v2h-14v-2z"></path><path fill="#333" d="M1 7h14v2h-14v-2z"></path><path fill="#333" d="M1 11h14v2h-14v-2z"></path></svg></span><span class="menu-navigation__text--cell">Alle produkter</span></span></button></li><li><a class="menu-navigation__cell menu-navigation__cell--top" href="/kampanje/komplett-club-tilbud" data-automationid="menuNavigation.cell"><span class="menu-navigation__title"><span class="menu-navigation__text--cell">Komplett Club</span></span></a></li><li><a class="menu-navigation__cell menu-navigation__cell--top" href="/kampanje/ukens-beste-kjoep" data-automationid="menuNavigation.cell"><span class="menu-navigation__title"><span class="menu-navigation__text--cell">Ukens tilbud</span></span></a></li><li><a class="menu-navigation__cell menu-navigation__cell--top" href="/category/10306/pc-nettbrett/komplett-pc" data-automationid="menuNavigation.cell"><span class="menu-navigation__title"><span class="menu-navigation__text--cell">Komplett-PC</span></span></a></li><li><a class="menu-navigation__cell menu-navigation__cell--top" href="/gavekort" data-automationid="menuNavigation.cell"><span class="menu-navigation__title"><span class="menu-navigation__text--cell">Gavekort</span></span></a></li><li><a class="menu-navigation__cell menu-navigation__cell--top" href="https://www.komplettbedrift.no/?utm_source=komplett.no&amp;utm_medium=referral" data-automationid="menuNavigation.cell"><span class="menu-navigation__title"><span class="menu-navigation__text--cell">Komplett Bedrift</span></span></a></li><li><a class="menu-navigation__cell menu-navigation__cell--top" href="/kampanje/92763/nyheter" data-automationid="menuNavigation.cell"><span class="menu-navigation__title"><span class="menu-navigation__text--cell">Nyheter</span></span></a></li></ul><div class="menu-navigation__level-wrapper"><ul class="menu-navigation__level" style="display:none" id="MenuListLevel2"></ul><ul class="menu-navigation__level" style="display:none" id="MenuListLevel3"></ul><ul class="menu-navigation__level" style="display:none" id="MenuListLevel4"></ul><ul class="menu-navigation__level" style="display:none" id="MenuListLevel5"></ul></div></div></div></div></section></header></div>
+                <div class="sticky-box-wrapper">
+        <div class="sticky-box">
+            <a href="/kundeservice/" >
+                    <img src="/marketingmedia/90960/kno_custpromise_q121_club_freedelivery_stickybox.png" alt="Prismatch - Gratis retur - Fri frakt for alt for Club-medlemmer" />
+            </a>
+        </div>
+    </div>
+
+        </div>
+        
+
+
+
+<div data-viewmodel="Pages/ProductPage/ProductPageViewModel" style="position: relative">
+    <!-- ko insertHtml: productPageHtml --><!-- /ko -->
+    <!-- ko if: !productPageHtml() -->
+    
+
+
+<script>
+    var dataLayer = dataLayer || [];
+
+        dataLayer.push({"productId":"1","ecomm_prodid":"1","ecomm_pagetype":"product","ecomm_totalvalue":0.0,"ecomm_shelfPrice":0.0,"porterbuddyDiscount":12000.00000,"porterbuddyAvailabilityErrorText":"Porterbuddy-levering samme dag er ikke mulig til postnummer [[postcode]]. PostNord eller Bring er selvsagt tilgjengelig som valg i kassen."});
+</script>
+
+
+
+<div
+    data-viewmodel="Components/AddToCartPopup/AddToCartPopupViewModel"
+    style="display: none"
+    id="addtocartpopup-strings"
+    data-model="{&quot;strings&quot;:{&quot;addtocartpopup.title&quot;:&quot;Lagt i handlevogn&quot;,&quot;addtocartpopup.unit&quot;:&quot;stk.&quot;,&quot;addtocartpopup.insurance&quot;:&quot;Sikre deg mot uhell med &lt;a href=&#x27;#&#x27;&gt;Trygghetsavtale&lt;/a&gt;&quot;,&quot;addtocartpopup.priceBefore&quot;:&quot;F&#xF8;r&quot;,&quot;addtocartpopup.buy&quot;:&quot;KJ&#xD8;P&quot;,&quot;addtocartpopup.bought&quot;:&quot;Lagt til&quot;,&quot;addtocartpopup.insuranceremove&quot;:&quot;Fjern&quot;,&quot;addtocartpopup.continueshopping&quot;:&quot;Fortsett &#xE5; handle&quot;,&quot;addtocartpopup.continueshopping.short&quot;:&quot;Lukk&quot;,&quot;addtocartpopup.gotocart&quot;:&quot;G&#xE5; til handlevogn&quot;,&quot;addtocartpopup.gotocart.short&quot;:&quot;Til handlevogn&quot;,&quot;addtocartpopup.close&quot;:&quot;Stenge&quot;,&quot;insurance-popup-conditions-header&quot;:&quot;Betingelser for trygghetsavtale&quot;,&quot;addtocartpopup.arrowLeft&quot;:&quot;Forrige produkt&quot;,&quot;addtocartpopup.arrowRight&quot;:&quot;Neste produkt&quot;,&quot;addtocartpopup.loading&quot;:&quot;Innhold blir lastet&quot;,&quot;addtocartpopup.insuranceFieldset&quot;:&quot;Forsikring&quot;,&quot;addtocartpopup.enableaddtocartpopup&quot;:&quot;Vis alltid denne pop-up n&#xE5;r du legger produkter i handlevogn&quot;,&quot;addtocartpopup.subscription.subname&quot;:&quot;Komplett &lt;b&gt;Bytte&lt;/b&gt;&quot;,&quot;addtocartpopup.subscription.name&quot;:&quot;Produktabonnement&quot;,&quot;addtocartpopup.subscription.komplettprice&quot;:&quot;Komplett Bytte (tot. {numberOfMonths} mnd):&quot;,&quot;addtocartpopup.subscription.termsandconditions&quot;:&quot;Les betingelser&quot;,&quot;addtocartpopup.subscription.moreInfoFirst&quot;:&quot;&lt;span&gt;&lt;b&gt;Etter {numberOfMonths} m&#xE5;neder bytter du til et nytt produkt.&lt;/b&gt;&lt;br/&gt;\nDu velger selv produkt og prisniv&#xE5; p&#xE5; ny avtale.&lt;/span&gt;&quot;,&quot;addtocartpopup.subscription.moreInfoSecond&quot;:&quot;&lt;span&gt;&lt;b&gt;Du sparer {youSave}&lt;/b&gt;&lt;br /&gt;\nDu f&#xE5;r en lav m&#xE5;nedspris, fordi noen andre f&#xE5;r glede av dette produktet.&lt;/span&gt;&quot;,&quot;addtocartpopup.subscription.moreInfoThird&quot;:&quot;&lt;span&gt;&lt;b&gt;&#xD8;nsker du ikke &#xE5; bytte produktet etter {numberOfMonths} mnd?&lt;/b&gt;\nFortsett din m&#xE5;nedlige nedbetaling til sv&#xE6;rt gode rentebetingelser. Total kostnad: {totalCost} (dersom du har flere produkter i handlevogn kan denne summen avvike noe)\n&lt;/span&gt;&quot;,&quot;addtocartpopup.subscription.accessories&quot;:&quot;Tilbeh&#xF8;r&quot;,&quot;addtocartpopup.subscription.noTermsAndConditions&quot;:&quot;Vise abonnementsvilk&#xE5;r for dette produktet feilet. Vennligst pr&#xF8;v igjen og kontakt kundeservice hvis det fortsatt feiler&quot;}}">
+</div>
+
+
+<script data-viewmodel="PageDependentComponents/RichRelevance/RichRelevance"
+        data-initobject="{&quot;pageData&quot;:{&quot;pageType&quot;:&quot;Item&quot;,&quot;itemPageDataModel&quot;:{&quot;id&quot;:&quot;1&quot;,&quot;name&quot;:&quot;1&quot;,&quot;categoryId&quot;:&quot;&quot;},&quot;recsPlacementIds&quot;:[&quot;recs_top&quot;,&quot;recs_accessories&quot;],&quot;promoPlacementIds&quot;:[&quot;promo1&quot;],&quot;requestContext&quot;:{&quot;showAsNetPrice&quot;:false,&quot;storeId&quot;:&quot;310&quot;,&quot;isBeta&quot;:false}},&quot;isEnabled&quot;:true}">
+</script>
+
+<main id="MainContent" class="caas caas__body">
+
+    
+<div class="comparison-widget-wrapper" data-viewmodel="Components/ComparisonWidget/ComparisonWidgetViewModel">
+    <div class="comparison-widget-mobile">
+        <div class="comparison-widget is-hidden"
+             data-bind="css: { 'is-hidden': !isVisible() }">
+            <div class="comparison-widget__body">
+                <div class="comparison-widget__scroll">
+                    <div class="comparison-widget__products"
+                         data-bind="foreach: products,
+                             css: {
+                                 'transition': isMinimized(),
+                                 'is-hidden': isMinimizedThrottled()
+                             }">
+                        <div class="comparison-widget__product"
+                             data-bind="css: { 'is-hidden': hidden() || isMinimized() }">
+                            <button class="remove-button" data-bind="click: removeElement, attr: { tabindex: isMinimized() ? -1 : 0 }"
+                                    aria-label="Fjern produkt fra sammenligning">
+                                <span class="icon icon-md icomoon-cancel-circle-2"></span>
+                            </button>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkkAQAAB8AG7jymN8AAAAASUVORK5CYII=" 
+                                 data-bind="attr: { src: image, alt: name }" alt="Sammenligning" />
+                        </div>
+                    </div>
+                </div>
+                <div class="comparison-widget__link"
+                     data-bind="css: {
+                        'transition': isMinimized(),
+                        'is-hidden': isMinimizedThrottled()
+                     }">
+                    <a href="/productcomparison">
+                        <div class="btn-medium comparison-widget__button primary background-transition">
+                            Sammenligning
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comparison-widget-desktop">
+        <div class="comparison-widget is-hidden"
+             data-bind="css: { 'is-hidden': !isVisible() }, style: { height: currentHeight }">
+            <div class="comparison-widget__wrapper"
+                 data-bind="measureHeight: { value: measureHeight }">
+                <div class="comparison-widget__body">
+                    <div class="comparison-widget__products"
+                         data-bind="foreach: products,
+                         css: {
+                             'transition': isMinimized(),
+                             'is-hidden': isMinimizedThrottled()
+                         }">
+                        <div class="comparison-widget__product"
+                             data-bind="css: { 'is-hidden': hidden() || isMinimized() }">
+                            <button class="remove-button" data-bind="click: removeElement, attr: { tabindex: isMinimized() ? -1 : 0 }"
+                                    aria-label="Fjern produkt fra sammenligning">
+                                <span class="icon icon-lg icomoon-cancel-circle-2 remove-icon"></span>
+                            </button>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkkAQAAB8AG7jymN8AAAAASUVORK5CYII="
+                                 data-bind="attr: { src: image, alt: name }" alt="Sammenligning" />
+                            <span data-bind="text: name"></span>
+                        </div>
+                    </div>
+                    <div class="comparison-widget__placeholder"
+                         data-bind="text: minimizedText,
+                         css: {
+                             'transition': !isMinimized(),
+                             'is-hidden': !isMinimizedThrottled()
+                         }">
+                    </div>
+                    <div class="comparison-widget__controls">
+                        <div class="comparison-widget__open" data-bind="css: { transition: isMinimized() }">
+                            <button class="comparison-widget__controls-minimize"
+                                    data-bind="click: minimize, attr: { 'aria-label': isMinimized() ? 'Utvid sammenlignings modulen' : 'Minimer sammenlignings modulen' }">
+                                <span data-bind="css: expandIconClass"></span>
+                            </button>
+                            <div class="comparison-widget__link comparison-widget__link--closed"
+                                 data-bind="css: {
+                                'transition': !isMinimized(),
+                                'is-hidden': !isMinimizedThrottled()
+                             }">
+                                <a data-bind="attr: {'href': compareLink(), tabindex: !isMinimized() ? -1 : 0 }">
+                                    <div class="btn-small background-transition">
+                                        G&#xE5; til sammenligning
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="comparison-widget__link"
+                             data-bind="css: {
+                                'transition': isMinimized(),
+                                'is-hidden': isMinimizedThrottled()
+                             }">
+                            <a data-bind="attr: {'href': compareLink(), tabindex: isMinimized() ? -1 : 0 }">
+                                <div class="btn-small primary background-transition">
+                                    Sammenligning
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="no-bs-center maincontent-container container main-body ignore-gutter-xs product-page-boxes">
+        <div class="breadcrumbs-wrapper product-box-card">
+            
+<nav class="breadcrumbs link-collection product-page" data-viewmodel="PageDependentComponents/BreadCrumbs/BreadCrumbsViewModel" data-initobject="{&quot;model&quot;:{&quot;links&quot;:[{&quot;title&quot;:&quot;Forsiden&quot;,&quot;link&quot;:&quot;/&quot;}],&quot;breadCrumbsForGoogleTagManager&quot;:&quot;Forsiden&quot;,&quot;here&quot;:&quot;1&quot;,&quot;pageName&quot;:&quot;product-page&quot;,&quot;multipleChoiceText&quot;:&quot;Flervalg&quot;,&quot;showCurrentLocationOnSmallScreens&quot;:false}}"
+     aria-label="Her er du">
+
+    <span class="you-are-here-label">Her er du:</span>
+
+    <div class="breadcrumb-items" data-bind="foreach: crumbs">
+        <div class="breadcrumb-item-wrapper">
+            <span class="icon icon-sm fa-darkgrey-angle-right"></span>
+            <a class="breadcrumb-item-link" data-bind="text: title, attr: { href: link }"></a>
+        </div>
+    </div>
+    <div class="current-location" data-bind="css: { 'is-current-location-visible': isCurrentLocationVisible }">
+        <span class="icon icon-sm fa-darkgrey-angle-right"></span>
+        <span data-bind="text: hereText">1</span>
+    </div>
+</nav>
+<script id="breadcrumbsScript" data-model="{&quot;breadCrumb&quot;:&quot;Forsiden&quot;}">
+    var scriptTag = document.getElementById("breadcrumbsScript");
+    var model = JSON.parse(scriptTag.getAttribute("data-model"));
+
+    var dataLayer = dataLayer || [];
+    dataLayer.push(model);
+</script>
+        </div>
+
+
+        <div class="responsive-content-wrapper">
+            
+<div data-viewmodel="ksc-alert/ViewModel" data-initobject="{&quot;alertArray&quot;:[{&quot;message&quot;:&quot;&lt;b&gt;Denne varen finnes ikke lenger i v&#xE5;rt sortiment, men kontakt oss gjerne p&#xE5; 33 00 55 00 eller &lt;a href=\&quot;mailto:kundeservice@komplett.no?Subject=Ikke lenger i v&#xE5;rt sortiment.\&quot; target=\&quot;_top\&quot;&gt;kundeservice@komplett.no&lt;/a&gt; s&#xE5; hjelper vi deg finne et alternativt produkt til dette.&lt;/b&gt;&quot;,&quot;level&quot;:&quot;info&quot;,&quot;isSticky&quot;:false}]}" class="alert-wrapper clearfix product-box-card"
+      data-bind="css: wrapperCss, kscAlertSticky: { isOutOfView: isOutOfView }" >
+    
+    <div data-bind="foreach:alerts">
+        <div class="row ksc-alert no-gutter" tabindex="-1" data-bind="css: alertLevelClass, visible: isVisible, hasFocus: hasFocus" style="display: none">
+            <div class="alert-header">
+                <div class="icon-wrapper">
+                    <div class="icon" data-bind="css: iconClass"></div>
+                </div>
+            </div>
+            <div class="alert-content">
+                <div data-bind="html:message"></div>
+                <a href="#" data-bind="click: closeAlert" class="close-button" aria-label="Lukk">
+                    <span class="ksc-alert-close-icon"></span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+            
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "1",
+    "image": "https://www.komplett.no/img/p/400/eaf2301a-28ea-47e8-9942-5e36f16488f5.jpg",
+    "description": "",
+    "sku": "1",
+    "mpn": "",
+    "brand": {
+    "@type": "Brand",
+    "name": ""
+    },
+    "offers": {
+    "@type": "Offer",
+    "url": "https://www.komplett.no/product/1",
+    "priceCurrency": "NOK",
+"price": "0",    "availability": "http://schema.org/Discontinued",
+    "seller": {
+        "@type": "Organization",
+    "name": ""
+    }
+    }
+    }
+</script>
+
+            <div style="display: none" data-bind="visible: isLoading" class="product-page__loader">
+                <div class="throbber">
+                    <svg class="circular">
+                        <circle class="path" cx="15" cy="15" r="12" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="product-page" >
+
+
+                <section class="product-main-info row product-box-card-no-top">
+                    <div class="col-xs-12">
+                        
+<section class="product-main-info__header product-main-info__header--variants">
+    
+    <div class="product-main-info__info"
+         data-viewmodel="Components/ProductMainInfo/ProductDescriptionViewModel"
+         data-initobject="{&quot;webtext1All&quot;:&quot;1&quot;,&quot;webtextLimited&quot;:&quot;1&quot;,&quot;displayShowAllButton&quot;:false}">
+        <h1 class="product-main-info-webtext1" itemprop="name">
+            <span data-bind="text: webtext1">1</span>
+        </h1>
+        <h2 class="product-main-info-webtext2" itemprop="description">
+            <span></span>
+        </h2>
+
+
+        
+
+
+    <div class="product-main-info-partnumber-store">
+        <span>Varenummer: </span>
+        <span itemprop="sku">1</span>
+
+
+    </div>
+
+    </div>
+
+    <div class="product-main-info__image-and-highlights">
+        
+<div class="product-images">
+    <meta itemprop="image" content="/img/p/200/1.jpg" />
+
+    <div style="display:none;" aria-hidden="false">
+        <p>Flere bilder av </p>
+    </div>
+
+    
+
+
+    <div class="product-images__main-carousel">
+        
+<div class="medium-image-carousel"
+     data-viewmodel="Components/ProductCarusel/MediumImageCaruselViewModel" aria-hidden="true">
+    
+
+
+    <div id="swipe-nav-container">
+        <div class="swipe-nav">
+            <div class="swipe-nav-page-indicator">
+                <span data-bind="text: activeSlideIndex">1</span> / <span>1</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-container" data-bind="horizontalSwiper: { swiper:            swiper,
+        activeSlideIndex : activeSlideIndex,
+        keyboardControl: true,
+        applySwipe: false,
+
+        onSlideChange: onSlideChange
+        }, css: {'overflow-visible': fullScreenVideo}">
+
+        <div class="swiper-wrapper">
+                        <button class="swiper-slide" data-bind="click: click, event: { focus: slideTo(0) }" data-slide-index="0">
+                            <img style="max-width: 400px;" src="/img/p/400/eaf2301a-28ea-47e8-9942-5e36f16488f5.jpg" alt=" " title=" "
+                                 srcset="/img/p/400/eaf2301a-28ea-47e8-9942-5e36f16488f5.jpg 400w,
+                                 /img/p/400/eaf2301a-28ea-47e8-9942-5e36f16488f5.jpg 400w " />
+                        </button>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+        
+    <div class="full-size-gallery swiper-container" style="display: none"
+         data-viewmodel="Components/ProductCarusel/LargeImageCarouselViewModel"
+         data-bind="visible: isOpen, horizontalSwiperLazyLoad: {showLoader: showLoader, swiper:swiper,prevButton: '.large-swiper-prev-button', nextButton: '.large-swiper-next-button' }" aria-hidden="true">
+        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img data-src="/img/p/400/eaf2301a-28ea-47e8-9942-5e36f16488f5.jpg" class="absolute-center swiper-lazy" alt=" " title=" " data-bind="click: click, clickBubble: false" />
+                        </div>
+        </div>
+        <div class="swiper-controls">
+            <button title="Lukk bildegalleriet" aria-label="Lukk bildegalleriet" class="close" data-bind="click:close, onKeyUp:{'name': 'closeGallery', 'key':27, 'do':close, 'when':true}">
+                <span class="white-background">
+                    <span class="icon-20 fa-darkgrey-times"></span>
+                </span>
+            </button>
+        </div>
+        <div class="use-keuboard-info">Du kan bla i bildene med piltastene p&#xE5; tastaturet</div>
+        <div class="loading-spinner" style="display: none" data-bind="visible: showLoader">
+            <div class="linear-spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="overlay fixed" data-bind="visible: isOpen, click: close" style="display:none"></div>
+
+    </div>
+
+    </div>
+
+</div>
+        
+
+
+    </div>
+    <div class="product-main-info__body">
+        
+<div class="compare-share-review new-arrangement ">
+        <div class="product-main-info-review new-arrangement" data-viewmodel="Components/ProductMainInfo/ProductMainInfoViewModel">
+        </div>
+    <div class="manufacturer-image-wrapper">
+        
+    </div>
+</div>
+
+        
+
+
+
+
+        <div class="product-main-info__buy-and-more">
+            <div class="buy-button-section">
+                
+    <div class="new-arrangement">
+    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                    </div>
+                </section>
+
+                <div class="row product-secondary-info-columns new-position new-position"
+                     data-viewmodel="Pages/ProductPage/ProductPageBoxesViewModel" data-initobject="{&quot;productReviews&quot;:true,&quot;splitLeftSection&quot;:true}">
+                    <div class="reviews-col-wrapper col-xs-12 col-md-6">
+                        <div class="reviews-wrapper">
+
+                        </div>
+                    </div>
+                    <div class="product-sections-left col-xs-12 col-md-6" data-bind="css: { 'col-sm-12 no-right-padding': !hasRRContent(), 'col-md-6': hasRRContent() }">
+                        
+<div class="product-section-wrapper row product-box-card">
+
+    
+<div class="product-section-menu col-xs-12 no-gutter hidden-sm hidden-xs" data-viewmodel="Components/ProductSections/SectionMenu/SectionMenuViewModel"
+     data-bind="css:{'stuck':isStuck}, scrolledOutOfView:isOutOfView">
+    <div class="menu-bar shadow-on-stuck">
+        <div class="container">
+            <nav aria-hidden="true" aria-label="Meny for ekstra produkt info">
+                <a href="#" class="scroll-top-text" data-bind="scrollToTop:true" aria-label="G&#xE5; til toppen av siden" title="G&#xE5; til toppen av siden">
+                    Til toppen
+                </a>
+
+                <div class="action-bar">
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+    
+
+
+    
+
+
+
+    
+
+
+</div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-6 product-recommendations-right">
+                        
+
+
+
+<div class="recommendations  col-xs-12 product-section product-box-card"
+     style="display: none"
+     data-viewmodel="PageDependentComponents/Recommendations/ProductRecommendationsViewModel"
+     data-initObject="{&quot;placementId&quot;:&quot;recs_top&quot;,&quot;decreaseSlidesPerViewWhenVerticalMenu&quot;:0,&quot;hideXsSm&quot;:false,&quot;showDiscountBubble&quot;:true}"
+     data-bind="style: {display: noPlacementReturned() ? 'none' : 'block'}, saveWhiteSpaceHeightToLocalStorage: { ready: isRendered, imageClassSelector: 'img', localStorageName: 'recommendations-placeholder-height-' }"
+     data-give-me-recs-placeholder-height>
+
+        <script>
+            (function setWhiteSpaceHeight(dataAttributToSelect, initSizeWhenLocalStorageIsEmpty, storageName) {
+                var element = document.querySelector(dataAttributToSelect);
+                var newCart = document.querySelector('#cart-page-react');
+
+                var value = localStorage[storageName + location.pathname];
+                if (!newCart) {
+                    element.style.height = value || initSizeWhenLocalStorageIsEmpty;
+                }
+            })('[data-give-me-recs-placeholder-height]', '300px', 'recommendations-placeholder-height-');
+        </script>
+    <div class="recommendations-extended" data-bind="style: {display: isRendered() ? 'block': 'hidden'}" style="display: none">
+        <div class="recommendations-title with-border">
+            <span class="recommendations-title-content" data-bind="text:message"></span>
+        </div>
+        <div class="product-list flexbox-list responsive-form box" data-bind="foreach: items, afterForeach: afterLastItemIsRendered">
+            
+<div class="recommendations-content">
+    <div class="recommendations-item">
+        <a class="image-container" href="#" data-bind="sendBeaconOnClick:linkURL, attr:{ href: productUrl, title: title }">
+            <div style="display: none;" data-bind="visible:price<priceBefore && $parent.showDiscountBubble && !$data.hideDiscountPromotion">
+                <div data-bind="if: $data.showDiscountPromotionAsCurrency">
+                    <div class="discount-bubble--currency image-discount-bubble discount-bubble--rich">
+                        <span class="discount-label--currency">
+                            <span class="currency-discount--desktop">SPAR <span data-bind="text: $parent.formattedDiscount(price, priceBefore, 'NO')"></span></span>
+                            <span class="currency-discount--mobile">
+                                -
+                                <span data-bind="text: $parent.formattedDiscount(price, priceBefore, 'NO').replace(',-', ' KR')"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div data-bind="if: !$data.showDiscountPromotionAsCurrency">
+                    <div class="discount-bubble image-discount-bubble">
+                        <span class="discount-label">
+                            -<span data-bind="text:$parent.calculateDiscount(price, priceBefore)"></span>%
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <img loading="lazy" height="150px" width="200px" class="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkkAQAAB8AG7jymN8AAAAASUVORK5CYII="
+                     data-bind="attr:{src:imageURL, alt:imageAltText, title:imageAltText}" alt="" title="" />
+            </div>
+        </a>
+    <div class="content-block">
+        <a class="text-container" href="#" data-bind="sendBeaconOnClick:linkURL, attr:{ href: productUrl, title: title }">
+            <div class="text-content">
+                <h3 class="recommendations-webtxt1" data-bind="html:title"></h3>
+                <h4 class="recommendations-webtxt2" data-bind="html:description"></h4>
+            </div>
+            <div class="recommendations-reviews">
+                    <div class="recommendations-rating-stars" data-bind="css: { 'do-not-show': !rating }">
+                        <div class="rating-stars" data-bind="css:$parent.ratingImageCssClass(rating), title:rating"></div>
+                    </div>
+            </div>
+        </a>
+
+        <div data-bind="with: $parent.getProductVariantToShow($data.variantsGroup)">
+            
+
+<div class="product-variants product-variants__recommendations">
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                      type: $data.type">
+        <div data-bind="if: type==='COLOR'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <div class="product-variant__color product-variant__color--square">
+                    <a data-bind="visible: $data, attr:{ href: $data.url, title: $data.displayValue, 'aria-label': $data.displayValue }, style: { 'border-color': $parent.lightenDarkenColor($data.value, -20) }, click: $parent.trackInteractionClick($data.matnr)"
+                       class="product-variant__color--spot product-variant__color--recommendations" style="display: none;">
+                        <div data-bind="style: { background: $data.value }"></div>
+                    </a>
+                </div>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__color product-variant__color--square">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variant__color--spot product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                                  type: $data.type">
+        <div data-bind="if: type==='IMAGE'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <a data-bind="visible: $data, attr:{ href: $data.url }, click: $parent.trackInteractionClick($data.matnr)"
+                   class="product-variant__image--square" style="display: none;">
+                    <img data-bind="attr: {src: '/img/p/200/' + $data.matnr + '.jpg', alt: $data.displayValue, title: $data.displayValue }" />
+                </a>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__button">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                                  type: $data.type">
+        <div data-bind="if: type !== 'COLOR' && type !== 'IMAGE'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <a data-bind="visible: $data, attr:{ href: $data.url }, click: $parent.trackInteractionClick($data.matnr)"
+                   class="product-variant__button product-variant__pointer" style="display: none;">
+                    <span data-bind="text: $data.displayValue"></span>
+                </a>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__button">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+
+        <div class="box-bottom">
+            <div class="price-wrapper" data-bind="if:buyType !== 'priceOnRequest'">
+                <div class="recommendations-now-price">
+                    <span data-bind="text:priceFormatted"></span>
+                </div>
+                <div style="display: none;" class="recommendations-net-price" data-bind="visible:showNetPrices">
+                    Eks. mva.
+                </div>
+            </div>
+            <div class="rr-buy-area" data-bind="if:$parent.showBuyButton()">
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='buy', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small  primary" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Kj&#xF8;p</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='preorder', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small secondary pre-order-button" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Bestill</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='download', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small primary btn-icon" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="icon fa-white-download"></span>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Kj&#xF8;p</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="visible:buyType=='priceOnRequest', click: priceOnRequestModal" class="buy-button btn-small secondary">
+                    <span class="text">Prisforesp&#xF8;rsel</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="energy-logo" data-bind="if: energyLogoModel">
+        <div class="product-energy-logo"
+             data-viewmodel="Components/ProductEnergyLogo/ProductEnergyLogoViewModel"
+             data-params="
+                        manufacturerName: energyLogoModel.manufacturerName,
+                        manufacturerPartNumber: energyLogoModel.manufacturerPartNumber,
+                        energyDetailsUrl: energyLogoModel.energyDetailsUrl,
+                        energyTechnicalUrl: energyLogoModel.energyTechnicalUrl,
+                        technicalUboText: 'Produktdatablad'"
+             data-bind="visible: isVisible"
+             style="display: none">
+            <a href="#" data-bind="click: openTechnicalUbo">
+                Produktdatablad
+            </a>
+            <a href="#" data-bind="click: openUbo" class="energy-logo-img-wrapper">
+                <span data-bind="css: 'energy-' + $parent.energyLogoModel.energyGrade + '-' + $parent.energyLogoModel.energyRate, attr: { title: imageTitle }" class="icon product-energy-logo-img"></span>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="recommendations  col-xs-12 product-section product-box-card"
+     style="display: none"
+     data-viewmodel="PageDependentComponents/Recommendations/ProductRecommendationsViewModel"
+     data-initObject="{&quot;placementId&quot;:&quot;recs_accessories&quot;,&quot;decreaseSlidesPerViewWhenVerticalMenu&quot;:0,&quot;hideXsSm&quot;:false,&quot;showDiscountBubble&quot;:true}"
+     data-bind="style: {display: noPlacementReturned() ? 'none' : 'block'}, saveWhiteSpaceHeightToLocalStorage: { ready: isRendered, imageClassSelector: 'img', localStorageName: 'recommendations-placeholder-height-' }"
+     data-give-me-recs-placeholder-height>
+
+        <script>
+            (function setWhiteSpaceHeight(dataAttributToSelect, initSizeWhenLocalStorageIsEmpty, storageName) {
+                var element = document.querySelector(dataAttributToSelect);
+                var newCart = document.querySelector('#cart-page-react');
+
+                var value = localStorage[storageName + location.pathname];
+                if (!newCart) {
+                    element.style.height = value || initSizeWhenLocalStorageIsEmpty;
+                }
+            })('[data-give-me-recs-placeholder-height]', '300px', 'recommendations-placeholder-height-');
+        </script>
+    <div class="recommendations-extended" data-bind="style: {display: isRendered() ? 'block': 'hidden'}" style="display: none">
+        <div class="recommendations-title with-border">
+            <span class="recommendations-title-content" data-bind="text:message"></span>
+        </div>
+        <div class="product-list flexbox-list responsive-form box" data-bind="foreach: items, afterForeach: afterLastItemIsRendered">
+            
+<div class="recommendations-content">
+    <div class="recommendations-item">
+        <a class="image-container" href="#" data-bind="sendBeaconOnClick:linkURL, attr:{ href: productUrl, title: title }">
+            <div style="display: none;" data-bind="visible:price<priceBefore && $parent.showDiscountBubble && !$data.hideDiscountPromotion">
+                <div data-bind="if: $data.showDiscountPromotionAsCurrency">
+                    <div class="discount-bubble--currency image-discount-bubble discount-bubble--rich">
+                        <span class="discount-label--currency">
+                            <span class="currency-discount--desktop">SPAR <span data-bind="text: $parent.formattedDiscount(price, priceBefore, 'NO')"></span></span>
+                            <span class="currency-discount--mobile">
+                                -
+                                <span data-bind="text: $parent.formattedDiscount(price, priceBefore, 'NO').replace(',-', ' KR')"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div data-bind="if: !$data.showDiscountPromotionAsCurrency">
+                    <div class="discount-bubble image-discount-bubble">
+                        <span class="discount-label">
+                            -<span data-bind="text:$parent.calculateDiscount(price, priceBefore)"></span>%
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <img loading="lazy" height="150px" width="200px" class="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkkAQAAB8AG7jymN8AAAAASUVORK5CYII="
+                     data-bind="attr:{src:imageURL, alt:imageAltText, title:imageAltText}" alt="" title="" />
+            </div>
+        </a>
+    <div class="content-block">
+        <a class="text-container" href="#" data-bind="sendBeaconOnClick:linkURL, attr:{ href: productUrl, title: title }">
+            <div class="text-content">
+                <h3 class="recommendations-webtxt1" data-bind="html:title"></h3>
+                <h4 class="recommendations-webtxt2" data-bind="html:description"></h4>
+            </div>
+            <div class="recommendations-reviews">
+                    <div class="recommendations-rating-stars" data-bind="css: { 'do-not-show': !rating }">
+                        <div class="rating-stars" data-bind="css:$parent.ratingImageCssClass(rating), title:rating"></div>
+                    </div>
+            </div>
+        </a>
+
+        <div data-bind="with: $parent.getProductVariantToShow($data.variantsGroup)">
+            
+
+<div class="product-variants product-variants__recommendations">
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                      type: $data.type">
+        <div data-bind="if: type==='COLOR'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <div class="product-variant__color product-variant__color--square">
+                    <a data-bind="visible: $data, attr:{ href: $data.url, title: $data.displayValue, 'aria-label': $data.displayValue }, style: { 'border-color': $parent.lightenDarkenColor($data.value, -20) }, click: $parent.trackInteractionClick($data.matnr)"
+                       class="product-variant__color--spot product-variant__color--recommendations" style="display: none;">
+                        <div data-bind="style: { background: $data.value }"></div>
+                    </a>
+                </div>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__color product-variant__color--square">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variant__color--spot product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                                  type: $data.type">
+        <div data-bind="if: type==='IMAGE'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <a data-bind="visible: $data, attr:{ href: $data.url }, click: $parent.trackInteractionClick($data.matnr)"
+                   class="product-variant__image--square" style="display: none;">
+                    <img data-bind="attr: {src: '/img/p/200/' + $data.matnr + '.jpg', alt: $data.displayValue, title: $data.displayValue }" />
+                </a>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__button">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                                  type: $data.type">
+        <div data-bind="if: type !== 'COLOR' && type !== 'IMAGE'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <a data-bind="visible: $data, attr:{ href: $data.url }, click: $parent.trackInteractionClick($data.matnr)"
+                   class="product-variant__button product-variant__pointer" style="display: none;">
+                    <span data-bind="text: $data.displayValue"></span>
+                </a>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__button">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+
+        <div class="box-bottom">
+            <div class="price-wrapper" data-bind="if:buyType !== 'priceOnRequest'">
+                <div class="recommendations-now-price">
+                    <span data-bind="text:priceFormatted"></span>
+                </div>
+                <div style="display: none;" class="recommendations-net-price" data-bind="visible:showNetPrices">
+                    Eks. mva.
+                </div>
+            </div>
+            <div class="rr-buy-area" data-bind="if:$parent.showBuyButton()">
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='buy', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small  primary" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Kj&#xF8;p</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='preorder', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small secondary pre-order-button" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Bestill</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='download', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small primary btn-icon" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="icon fa-white-download"></span>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Kj&#xF8;p</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="visible:buyType=='priceOnRequest', click: priceOnRequestModal" class="buy-button btn-small secondary">
+                    <span class="text">Prisforesp&#xF8;rsel</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="energy-logo" data-bind="if: energyLogoModel">
+        <div class="product-energy-logo"
+             data-viewmodel="Components/ProductEnergyLogo/ProductEnergyLogoViewModel"
+             data-params="
+                        manufacturerName: energyLogoModel.manufacturerName,
+                        manufacturerPartNumber: energyLogoModel.manufacturerPartNumber,
+                        energyDetailsUrl: energyLogoModel.energyDetailsUrl,
+                        energyTechnicalUrl: energyLogoModel.energyTechnicalUrl,
+                        technicalUboText: 'Produktdatablad'"
+             data-bind="visible: isVisible"
+             style="display: none">
+            <a href="#" data-bind="click: openTechnicalUbo">
+                Produktdatablad
+            </a>
+            <a href="#" data-bind="click: openUbo" class="energy-logo-img-wrapper">
+                <span data-bind="css: 'energy-' + $parent.energyLogoModel.energyGrade + '-' + $parent.energyLogoModel.energyRate, attr: { title: imageTitle }" class="icon product-energy-logo-img"></span>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="recommendations  col-xs-12 product-section product-box-card"
+     style="display: none"
+     data-viewmodel="PageDependentComponents/Recommendations/ProductRecommendationsViewModel"
+     data-initObject="{&quot;placementId&quot;:&quot;history&quot;,&quot;decreaseSlidesPerViewWhenVerticalMenu&quot;:0,&quot;hideXsSm&quot;:false,&quot;showDiscountBubble&quot;:true}"
+     data-bind="style: {display: noPlacementReturned() ? 'none' : 'block'}, saveWhiteSpaceHeightToLocalStorage: { ready: isRendered, imageClassSelector: 'img', localStorageName: 'recommendations-placeholder-height-' }"
+     data-give-me-recs-placeholder-height>
+
+        <script>
+            (function setWhiteSpaceHeight(dataAttributToSelect, initSizeWhenLocalStorageIsEmpty, storageName) {
+                var element = document.querySelector(dataAttributToSelect);
+                var newCart = document.querySelector('#cart-page-react');
+
+                var value = localStorage[storageName + location.pathname];
+                if (!newCart) {
+                    element.style.height = value || initSizeWhenLocalStorageIsEmpty;
+                }
+            })('[data-give-me-recs-placeholder-height]', '300px', 'recommendations-placeholder-height-');
+        </script>
+    <div class="recommendations-extended" data-bind="style: {display: isRendered() ? 'block': 'hidden'}" style="display: none">
+        <div class="recommendations-title with-border">
+            <span class="recommendations-title-content" data-bind="text:message"></span>
+        </div>
+        <div class="product-list flexbox-list responsive-form box" data-bind="foreach: items, afterForeach: afterLastItemIsRendered">
+            
+<div class="recommendations-content">
+    <div class="recommendations-item">
+        <a class="image-container" href="#" data-bind="sendBeaconOnClick:linkURL, attr:{ href: productUrl, title: title }">
+            <div style="display: none;" data-bind="visible:price<priceBefore && $parent.showDiscountBubble && !$data.hideDiscountPromotion">
+                <div data-bind="if: $data.showDiscountPromotionAsCurrency">
+                    <div class="discount-bubble--currency image-discount-bubble discount-bubble--rich">
+                        <span class="discount-label--currency">
+                            <span class="currency-discount--desktop">SPAR <span data-bind="text: $parent.formattedDiscount(price, priceBefore, 'NO')"></span></span>
+                            <span class="currency-discount--mobile">
+                                -
+                                <span data-bind="text: $parent.formattedDiscount(price, priceBefore, 'NO').replace(',-', ' KR')"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div data-bind="if: !$data.showDiscountPromotionAsCurrency">
+                    <div class="discount-bubble image-discount-bubble">
+                        <span class="discount-label">
+                            -<span data-bind="text:$parent.calculateDiscount(price, priceBefore)"></span>%
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <img loading="lazy" height="150px" width="200px" class="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkkAQAAB8AG7jymN8AAAAASUVORK5CYII="
+                     data-bind="attr:{src:imageURL, alt:imageAltText, title:imageAltText}" alt="" title="" />
+            </div>
+        </a>
+    <div class="content-block">
+        <a class="text-container" href="#" data-bind="sendBeaconOnClick:linkURL, attr:{ href: productUrl, title: title }">
+            <div class="text-content">
+                <h3 class="recommendations-webtxt1" data-bind="html:title"></h3>
+                <h4 class="recommendations-webtxt2" data-bind="html:description"></h4>
+            </div>
+            <div class="recommendations-reviews">
+                    <div class="recommendations-rating-stars" data-bind="css: { 'do-not-show': !rating }">
+                        <div class="rating-stars" data-bind="css:$parent.ratingImageCssClass(rating), title:rating"></div>
+                    </div>
+            </div>
+        </a>
+
+        <div data-bind="with: $parent.getProductVariantToShow($data.variantsGroup)">
+            
+
+<div class="product-variants product-variants__recommendations">
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                      type: $data.type">
+        <div data-bind="if: type==='COLOR'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <div class="product-variant__color product-variant__color--square">
+                    <a data-bind="visible: $data, attr:{ href: $data.url, title: $data.displayValue, 'aria-label': $data.displayValue }, style: { 'border-color': $parent.lightenDarkenColor($data.value, -20) }, click: $parent.trackInteractionClick($data.matnr)"
+                       class="product-variant__color--spot product-variant__color--recommendations" style="display: none;">
+                        <div data-bind="style: { background: $data.value }"></div>
+                    </a>
+                </div>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__color product-variant__color--square">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variant__color--spot product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                                  type: $data.type">
+        <div data-bind="if: type==='IMAGE'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <a data-bind="visible: $data, attr:{ href: $data.url }, click: $parent.trackInteractionClick($data.matnr)"
+                   class="product-variant__image--square" style="display: none;">
+                    <img data-bind="attr: {src: '/img/p/200/' + $data.matnr + '.jpg', alt: $data.displayValue, title: $data.displayValue }" />
+                </a>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__button">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-bind="if: $data.products && $data.products.length > 1"
+         data-viewmodel="Components/ProductVariants/ProductVariantsViewModel"
+         data-params="products: $data.products,
+                                  type: $data.type">
+        <div data-bind="if: type !== 'COLOR' && type !== 'IMAGE'">
+            <div class="product-variants__listing">
+                <!-- ko foreach: visibleProducts -->
+                <a data-bind="visible: $data, attr:{ href: $data.url }, click: $parent.trackInteractionClick($data.matnr)"
+                   class="product-variant__button product-variant__pointer" style="display: none;">
+                    <span data-bind="text: $data.displayValue"></span>
+                </a>
+                <!-- /ko -->
+                <div data-bind="visible: showMore" style="display: none;">
+                    <div class="product-variant__button">
+                        <a data-bind="attr: { href: products[0].url }" class="product-variants__listing--more">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+
+        <div class="box-bottom">
+            <div class="price-wrapper" data-bind="if:buyType !== 'priceOnRequest'">
+                <div class="recommendations-now-price">
+                    <span data-bind="text:priceFormatted"></span>
+                </div>
+                <div style="display: none;" class="recommendations-net-price" data-bind="visible:showNetPrices">
+                    Eks. mva.
+                </div>
+            </div>
+            <div class="rr-buy-area" data-bind="if:$parent.showBuyButton()">
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='buy', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small  primary" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Kj&#xF8;p</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='preorder', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small secondary pre-order-button" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Bestill</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="css: {'added-to-cart': addToCart.buttonClicked}, visible:buyType=='download', sendBeaconOnClick:linkURL, attr:{ href:'/cart/AddProductToCartAsync?productId=' + id + '&amp;quantity=1'} ,click: addToCart.addToCartNotification" class="buy-button btn-small primary btn-icon" href="#buy" aria-atomic="true" aria-live="assertive" rel="nofollow">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <span class="icon fa-white-download"></span>
+                    <span class="text" data-bind="visible: !addToCart.buttonClicked()">Kj&#xF8;p</span>
+                    <span class="text" data-bind="visible: addToCart.buttonClicked" style="display: none;">Lagt til</span>
+                </a>
+                <a tabindex="-1" role="button" style="display: none" data-bind="visible:buyType=='priceOnRequest', click: priceOnRequestModal" class="buy-button btn-small secondary">
+                    <span class="text">Prisforesp&#xF8;rsel</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="energy-logo" data-bind="if: energyLogoModel">
+        <div class="product-energy-logo"
+             data-viewmodel="Components/ProductEnergyLogo/ProductEnergyLogoViewModel"
+             data-params="
+                        manufacturerName: energyLogoModel.manufacturerName,
+                        manufacturerPartNumber: energyLogoModel.manufacturerPartNumber,
+                        energyDetailsUrl: energyLogoModel.energyDetailsUrl,
+                        energyTechnicalUrl: energyLogoModel.energyTechnicalUrl,
+                        technicalUboText: 'Produktdatablad'"
+             data-bind="visible: isVisible"
+             style="display: none">
+            <a href="#" data-bind="click: openTechnicalUbo">
+                Produktdatablad
+            </a>
+            <a href="#" data-bind="click: openUbo" class="energy-logo-img-wrapper">
+                <span data-bind="css: 'energy-' + $parent.energyLogoModel.energyGrade + '-' + $parent.energyLogoModel.energyRate, attr: { title: imageTitle }" class="icon product-energy-logo-img"></span>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="engage col-xs-12 product-box-card"
+     data-viewmodel="PageDependentComponents/EngagePlacement/EngageViewModel"
+     data-initobject="{&quot;placementId&quot;:&quot;promo1&quot;}"
+     data-bind="style: {display: noPlacementReturned() ? 'none' : 'block'}">
+    <div data-bind="with: engagePlacement">
+        <a data-bind="attr: {href: targetUrl, title: alt_txt}">
+            <img class="engage-image" data-bind="attr: { src: mediaUrlComputed, alt: alt_txt }">
+        </a>
+    </div>
+</div>
+                    </div>
+                </div>
+
+
+<span data-viewmodel="Components/ComparisonWidget/ComparisonShowViewModel"></span>            </div>
+        </div>
+    </div>
+</main>
+    <!-- /ko -->
+</div>
+
+
+        <div class="caas">
+            
+
+<div data-k-chat="{&quot;l10n&quot;:{&quot;aria.label.chat&quot;:&quot;Chat&quot;,&quot;chat.customer.support.welcomeMessage&quot;:&quot;Hei! Mitt navn er {navn}. Hva kan jeg hjelpe deg med?&quot;,&quot;chat.confirmExitDialog.title&quot;:&quot;Avslutte chat?&quot;,&quot;chat.confirmExitDialog.text&quot;:&quot;Er du sikker p&#229; at du vil avslutte chatten?&quot;,&quot;cancel.btn&quot;:&quot;Avbryt&quot;,&quot;chat.header.chatWithUs&quot;:&quot;Chat med oss&quot;,&quot;chat.welcomeMessage.byDc&quot;:&quot;Velkommen til Komplett Chat!&quot;,&quot;chat.welcomeMessageMobile.byDc&quot;:&quot;&quot;,&quot;chat.customer.support.title&quot;:&quot;Kundeservice&quot;,&quot;chat.user.title&quot;:&quot;Deg&quot;,&quot;chat.info&quot;:&quot;&lt;ul&gt;\n    &lt;li&gt;&lt;a href=\&quot;https://www.komplett.no/kundeservice/\&quot; style=\&quot;font-size:16px\&quot;&gt;Ofte stilte sp&#248;rsm&#229;l&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&#197;pningstider&lt;/li&gt;\n\t&lt;li&gt;Chat: 09.00 – 18.00&lt;/li&gt;\n    &lt;li&gt;Telefon: 09.00 – 18.00&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;chat.infoMobile&quot;:&quot;&lt;ul&gt;&lt;p style=\&quot;font-size:13px\&quot;&gt;Chat og Telefon til Komplett Mobil er n&#229; dessverre stengt, trenger du hjelp vedr&#248;rende faktura kan du ta kontakt med oss via epost.&lt;/p&gt;&lt;li&gt;&lt;a href=\&quot;mailto:kundeservice@komplettmobil.no\&quot;&gt;kundeservice@komplettmobil.no&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&quot;,&quot;chat.infoMarketplace&quot;:&quot;Finn frem den aktuelle ordren og skriv inn ditt sp&#248;rsm&#229;l i feltet \&quot;Min melding\&quot;. Du vil i l&#248;pet av en virkedag motta et svar. N&#229;r du har mottatt svar vil du f&#229; en e-post om dette.&quot;,&quot;chat.infoOrder&quot;:&quot;&lt;ul&gt;&lt;li style=\&quot;font-size:16px\&quot;&gt;Ask us anything about your order&lt;/li&gt;&lt;li&gt;Mandag – Fredag 09.00 – 16.00&lt;/li&gt;&lt;/ul&gt;&quot;,&quot;chat.button.startChat&quot;:&quot;Start en chat&quot;,&quot;chat.button.startChat.afterDisconnect&quot;:&quot;Start en ny chat&quot;,&quot;chat.button.goBack&quot;:&quot;G&#229; tilbake&quot;,&quot;chat.button.orders&quot;:&quot;G&#229; til ordrehistorikk&quot;,&quot;chat.closed.message&quot;:&quot;Chatten er dessverre stengt.&quot;,&quot;chat.small.establish.delay.message&quot;:&quot;Det tok lenger tid enn normalt &#229; opprette kontakt med kundeservice. Vennligst vent&quot;,&quot;chat.long.establish.delay.message&quot;:&quot;Dessverre gikk det ikke ann &#229; opprette kontakt pga. nettversproblemer. Du m&#229; gjerne pr&#248;ve p&#229; nytt&quot;,&quot;chat.small.delay.message&quot;:&quot;Det tok lenger tid enn normalt &#229; sende denne meldingen. Vennligst vent!&quot;,&quot;chat.long.delay.message&quot;:&quot;Dessverre har du ikke lenger kontakt med kundeservice pga. problemer med nettverket.&quot;,&quot;chat.message.afterDisconnect&quot;:&quot;Takk for praten.&quot;,&quot;chat.message.afterDisconnect.InsuranceURL&quot;:&quot;&quot;,&quot;chat.message.afterDisconnect.Insurance&quot;:&quot;&quot;,&quot;chat.message.afterDisconnect.InsuranceURLText&quot;:&quot;&quot;,&quot;chat.write.question&quot;:&quot;Skriv ditt sp&#248;rsm&#229;l her...&quot;,&quot;chat.button.exit&quot;:&quot;Avslutt chat&quot;,&quot;chat.button.send&quot;:&quot;Send&quot;,&quot;chat.agent.typing&quot;:&quot;{navn} skriver...&quot;,&quot;chat.welcomeMenu&quot;:&quot;Velkommen!&lt;br /&gt; Min henvendelse gjelder:&quot;,&quot;chat.welcomeMarketplace&quot;:&quot;Hvordan kontakter jeg en samarbeidspartner?&quot;,&quot;chat.menu.komplett&quot;:&quot;Komplett&quot;,&quot;chat.menu.marketplace&quot;:&quot;Annen selger&quot;,&quot;chat.menu.mobil&quot;:&quot;Komplett Mobil&quot;,&quot;chat.menu.questionaboutorder&quot;:&quot;Sp&#248;rsm&#229;l om levering&quot;,&quot;chat.menu.questionaboutsomethingelse&quot;:&quot;Jeg har et annet sp&#248;rsm&#229;l&quot;,&quot;beta.customercenter.message&quot;:&quot;Betabruker&quot;,&quot;chat.user.anonymous&quot;:&quot;Anonym kunde&quot;,&quot;chat.customer.welcomeMessage.withoutName&quot;:&quot;Welcome to Komplett chat&quot;,&quot;chat.openConfig.carefulChanging.day&quot;:&quot;Monday-Friday&quot;,&quot;chat.openConfig.carefulChanging.time&quot;:&quot;0800-1800&quot;,&quot;chat.openConfig.carefulChanging.dayOfMonth.extra&quot;:&quot;23&quot;,&quot;chat.openConfig.carefulChanging.month.extra&quot;:&quot;11&quot;,&quot;chat.openConfig.carefulChanging.time.extra&quot;:&quot;0900-1800&quot;},&quot;initParams&quot;:{&quot;headerAndFooter2018&quot;:true,&quot;orderSpecificChatQueue&quot;:false,&quot;storeInfo&quot;:{&quot;environment&quot;:&quot;Production&quot;,&quot;country&quot;:&quot;NO&quot;,&quot;vtweg&quot;:&quot;10&quot;,&quot;isBeta&quot;:false,&quot;accountId&quot;:0}}}" data-viewmodel="Components/Chat/ChatViewModel"></div>
+            
+
+    <div class="caas__footer--content ">
+        <div class="main">
+            <section class="main__container" style="max-width: 1200px">
+                    <article class="main__container--list">
+                        <h3 class="heading">SNARVEIER</h3>
+                        <ul data-automationid="footer.container">
+                                <li>
+                                    <a href="/mypage" data-automationid="footer.container.link"  rel=nofollow>Min side</a>
+                                </li>
+                                <li>
+                                    <a href="/orders" data-automationid="footer.container.link"  rel=nofollow>Ordreoversikt</a>
+                                </li>
+                                <li>
+                                    <a href="/gavekort" data-automationid="footer.container.link"  >Gavekort</a>
+                                </li>
+                                <li>
+                                    <a href="/kampanje/72274/komplett-kampanjer" data-automationid="footer.container.link"  >Faste kampanjer</a>
+                                </li>
+                                <li>
+                                    <a href="/kundeservice/om-komplett/personopplysninger/" data-automationid="footer.container.link"  >Personopplysninger</a>
+                                </li>
+                        </ul>
+                    </article>
+                    <article class="main__container--list">
+                        <h3 class="heading">INFORMASJON</h3>
+                        <ul data-automationid="footer.container">
+                                <li>
+                                    <a href="/kundeservice/om-komplett/" data-automationid="footer.container.link"  >Salgsbetingelser</a>
+                                </li>
+                                <li>
+                                    <a href="/latest/cataloged/" data-automationid="footer.container.link"  >Nye produkter</a>
+                                </li>
+                                <li>
+                                    <a href="/latest/stocked/" data-automationid="footer.container.link"  >Nytt p&#xE5; lager</a>
+                                </li>
+                                <li>
+                                    <a href="/latest/reviews/" data-automationid="footer.container.link"  >Nye kundeanbefalinger</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.komplett.no/brand/" data-automationid="footer.container.link"  >Merker/produsent</a>
+                                </li>
+                        </ul>
+                    </article>
+                    <article class="main__container--list">
+                        <h3 class="heading">Support</h3>
+                        <ul data-automationid="footer.container">
+                                <li>
+                                    <a href="https://www.komplett.no/kundeservice/" data-automationid="footer.container.link"  >Kontakt oss</a>
+                                </li>
+                                <li>
+                                    <a href="/kundeservice/ofte-stilte-spoersmaal/" data-automationid="footer.container.link"  >Sp&#xF8;rsm&#xE5;l &amp; svar</a>
+                                </li>
+                                <li>
+                                    <a href="/kampanje/artikler-og-guider" data-automationid="footer.container.link"  >Artikler</a>
+                                </li>
+                                <li>
+                                    <a href="/kundeservice/reklamasjon-og-garanti/" data-automationid="footer.container.link"  >Reklamasjon og garanti</a>
+                                </li>
+                        </ul>
+                    </article>
+                <article class="main__container--logo">
+                        <div class="footer--logo">
+                            <img src="/infocentermedia/1860/logo_b2c_new.svg" alt="Logo">
+                        </div>
+                    <div class="footer--info-area">
+                        <p><a style="color: #0074bd; text-decoration: underline;" rel="nofollow" href="https://www.komplett.no/kundeservice/om-komplett/personvern/">Les om vårt personvern her</a>.</p>
+<p><a href="https://www.tryggehandel.no/butikker/komplett/" target="_blank"><img style="width: 98px; height: 96px;" src="/infocentermedia/1956/logo_trygg_e-handel.png?width=98&amp;height=96" alt="Trygg E-handel" data-id="10237"></a></p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <section class="bottom">
+            <div class="bottom__container">
+                    <div class="social-icon">
+                        <a href="http://www.facebook.com/komplettno" data-automationid="footer.social.link" target="_blank" rel="nofollow noopener">
+                            <img src="/infocentermedia/1845/facebook.png" alt="Bes&#xF8;k oss p&#xE5; Facebook" />
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="http://www.twitter.com/komplettno" data-automationid="footer.social.link" target="_blank" rel="nofollow noopener">
+                            <img src="/infocentermedia/1848/twitter.png" alt="Bes&#xF8;k oss p&#xE5; Twitter" />
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="http://www.instagram.com/komplettno" data-automationid="footer.social.link" target="_blank" rel="nofollow noopener">
+                            <img src="/infocentermedia/1846/instagram.png" alt="Bes&#xF8;k oss p&#xE5; Instagram" />
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="http://www.youtube.com/komplettno" data-automationid="footer.social.link" target="_blank" rel="nofollow noopener">
+                            <img src="/infocentermedia/1846/youtube.png" alt="Bes&#xF8;k oss p&#xE5; YouTube" />
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://www.twitch.tv/komplettno" data-automationid="footer.social.link" target="_blank" rel="nofollow noopener">
+                            <img src="/infocentermedia/1847/twitch.png" alt="Bes&#xF8;k oss p&#xE5; Twitch" />
+                        </a>
+                    </div>
+            </div>
+        </section>
+    </div>
+
+<script>window.__CAAS__STRINGS = {"caaS":{"header":{"altLogo":"Til forsiden","search":{"categories":"Kategorier","brands":"Merker","placeholder":"Søk blant {0} produkter","seeAll":"Se alle","seeAllHits":"Gå til alle {0} treff","previousPrice":"Før","priceOnRequest":"Prisforespørsel","placeholders":{"initialString":"Søk blant {0} produkter","lastString":"Søk blant {0} produkter"}},"linkedStore":{"label":"Komplett Bedrift","altLabel":"Bedrift","url":"https://www.komplettbedrift.no/","iconClass":"icomoon-office-2"},"wishlist":{"label":"Ønskelister","url":"/wishlist"},"customerService":{"label":"Kundeservice","url":"/kundeservice/"},"user":{"label":"Logg inn","vippsLoginLabel":"Logg inn med Vipps","regularLoginLabel":"Logg inn med e-post","orders":{"label":"Mine ordre","url":"/orders"},"myPage":{"label":"Min side","url":"/mypage"},"logOut":{"label":"Logg ut","url":"/k2/Login/LogOut"}},"cart":{"label":"Handlevogn","url":"/cart","perMonth":"/mo"},"menu":{"goBack":"Gå tilbake","openSubMenu":"Åpne"},"multiClientCenter":{"customer":"Customer","contact":"Contact","choose":"Velg","login":"Login"}},"cookieConsent":{"introduction":"Vi i Komplett ønsker å gi deg en unik handleopplevelse, til dette bruker vi informasjonskapsler (cookies) og pixels. Noen av disse er nødvendige for at nettbutikken vår skal fungere, andre bidrar til at du skal få en skreddersydd opplevelse. Ved å trykke «Det er greit» godkjenner du bruken av cookies og pixels.","logoAlt":"Gå til forsiden","generalForm":{"acceptAll":"Det er greit","showDetails":"Jeg vil vite mer"},"detailedForm":{"marketingCookies":"Markedsføring cookies og pixels","marketingCookiesDetails":"Dette er cookies og pixels som brukes for å vise deg tilpassede annonser som er relevante for nettopp dine interesser. Annonsene baseres på hva du har sett på, samt vist interesse for på vår nettside.","marketingCookiesDetailsMore":"More 3","personalizationCookies":"Personalisering cookies","personalizationCookiesDetails":"Vi ønsker å gi deg best mulig kundeopplevelse på vår nettside. Det gjør vi ved å skreddersy innholdet til hver enkelt bruker. Det gir en personlig tilpasning av nettsiden slik at du får egne produktforslag basert på dine interesser.","personalizationCookiesDetailsMore":"More 2","requiredCookies":"Nødvendige cookies (påkrevd)","requiredCookiesDetails":"Noen cookies er nødvendige for at nettsiden vår skal fungere optimalt, og de er derfor ikke mulig å velge bort. Denne typen cookies gjør blant annet at nettsiden husker dine kontoopplysninger og hva du har lagt i handlevognen.","requiredCookiesDetailsMore":"More details 1","readMore":"Les mer","readLess":"Skjul","validationRequired":"Required option","save":"Det er greit"}},"mobileNavigation":{"menu":"Produkter","logIn":"Logg inn","search":"Søk","mobileCart":{"label":"Handlevogn","url":"/cart"}},"footer":{"altLogo":"Logo"},"loyalty":{"from":"Melding fra","sender":"Komplett Club","url":"/kampanje/komplett-club-tilbud","wrapper":"Husk at du som medlem alltid har FRI FRAKT! *","labelClose":"Lukk melding","benefitButton":"Dine fordeler","benefitButtonShort":"Fordeler","benefitMenuHeader":"Dine fordeler","signInHeader":"Bli en del av klubben og lås opp fantastiske fordeler!","signInTerms":"Jeg godkjenner {0} for Komplett Club","signInLinkText":"betingelser","signInButton":"Bli medlem","signInError":"Du må samtykke for å bli medlem av Komplett Club","signInRequestFailed":"Noe gikk galt. Vennligst prøv igjen senere.","benefitSignInMessage":"Velkommen til Komplett Club!","logInButton":"Logg inn og bli medlem","benefitBuyButton":"Kjøp","benefitBuyButtonAdded":"Lagt til","goToCampaign":"Vis utvalg","benefitFetchErrorMessage":"Noe gikk galt når vi prøvde å hente tilgjengelige fordeler. Prøv igjen senere.","clubCampaignPageUrl":"/kampanje/komplett-club-tilbud","clubCampaignLinkName":"Se alle tilbudene denne uken...","terms":"\t\u003cdiv\u003e\n\t\t\u003ch3\u003eSlik fungerer det\u003c/h3\u003e\n\t\t\u003cul\u003e\n\t\t\u003cli\u003eAlltid FRI FRAKT med rimeligste fraktalternativ (unntatt levering med Porterbuddy).\u003c/li\u003e\n                \u003cli\u003eEksklusive fordeler og poeng for dine produktanmeldelser.\u003c/li\u003e\n\t\t\u003cli\u003eFå poeng når du handler. 1kr = 1 poeng\u003c/li\u003e\n\t\t\u003cli\u003eDu får mer informasjon om klubben på e-post etter påmelding\u003c/li\u003e\n\t\t\u003cli\u003eDu kan når som helst melde deg ut\u003c/li\u003e\n                \u003cli\u003eDet er gratis å være medlem\u003c/li\u003e\n\t\t\u003c/ul\u003e\t\n\u003cp\u003e\n\t\tVi vil kontakte deg på mail/SMS med gode tilbud og nyhetsoppdateringer forbundet med ditt medlemskap i kundeklubben. \n\t\t\u003cbr/\u003e\u003cbr/\u003e\n\t\tKomplett Club vil benytte dine kjøpsopplysninger for å beregne opptjente poeng. For å tilby deg mest mulig relevant informasjon og unike tilbud, har vi inngått et samarbeid med Symplify for mailutsendelse. Persondataene vi deler med Symplify er navn, telefon og mail. Disse blir på ingen måte misligholdt eller solgt til tredjepart.\n\t\t\u003ca href=\u0022/kundeservice/om-komplett/personvern/#content_h2_6-informasjonskapsler-(cookies)\u0022 target=\u0022_blank\u0022\u003eSe personvernerklæring punkt 6\u003c/a\u003e.\n\t\t\u003cbr/\u003e\u003cbr/\u003e\n\t\tKomplett.no, ved administrerende direktør, er behandlingsansvarlig for virksomhetens behandling av personopplysninger. Den behandlingsansvarlige har det øverste ansvaret for å sikre at all behandling og håndtering av personopplysninger skjer i samsvar med gjeldene lovgivning. \n\t\t\u003cbr/\u003e\u003cbr/\u003e\n\t\tI samsvar med gjeldene lovgivning har du rett til å få innsyn i opplysningene vi har om deg. Du kan når som helst be oss slette, sperre eller rette dine personopplysninger i henhold til våre rettslige forpliktelser.\n\t\t\u003cbr/\u003e\u003cbr/\u003e\n\t\tDet er frivillig å bruke denne tjenesten, og du kan når som helst endre ditt samtykke ved å melde deg ut av kundeklubben på \u003ca href=\u0022/mypage\u0022\u003eMin Side\u003c/a\u003e.\n\t\t\u003cbr/\u003e\u003cbr/\u003e\n\t\t\u003ca href=\u0022/kundeservice/om-komplett/personvern/\u0022 target=\u0022_blank\u0022\u003eMer om vår behandling av persondata\u003c/a\u003e\n\t\u003c/p\u003e\n\u003c/div\u003e","stockStatus":{"stocked":"{QUANTITY} stk. på lager","alwaysInStock":"Alltid på lager","notInStock":"Ikke på lager"}},"newsletterConsentPopup":{"header":"Vil du ha høstens nyheter først?","emailButton":"Motta NYHETSBREV? Ja, takk!","smsButton":"Motta SMS? Ja, takk!","infoTextPartOne":"Jeg ønsker personlig tilpassede tibud og anbefalinger.","infoTextPartTwo":"Du melder deg på med informasjonen fra \u0027Min side\u0027.","smsConsentQuery":"Vi ser at du allerede mottar nyhetsbrev fra oss. Visste du at du også kan motta SMS med supre tilbud?","emailConsentAccepted":"Du abonnerer nå på e-post!","smsConsentAccepted":"Du abonnerer nå på SMS!","cookieExpirationConstantNormal":3,"cookieExpirationConstantEmailConsented":2},"vipps":{"confirmButtonText":"Gjør det!","updatePhoneMessageText":"\u003cspan\u003eVi ser at telefonnummeret i \u003ca href=\u0022/profile\u0022\u003edin profil\u003c/a\u003e ikke er det du bruker i Vipps: \u003cstrong\u003e{phone}\u003c/strong\u003e\u003c/span\u003e","updatePhoneQuestion":"Skal vi oppdatere profilen din med dette nummeret?","updateAddressMessageText":"\u003cspan\u003e Vi ser at adressen i \u003ca href=\u0022/profile\u0022\u003edin profil\u003c/a\u003e ikke er lik adressen du har lagret hos Vipps: \u003cstrong\u003e{address}\u003c/strong\u003e\u003c/span\u003e","updateAddressQuestion":"Skal vi oppdatere profilen din med denne adressen?","updatePhoneAddressMessageText":"\u003cspan\u003eVi ser at telefonnummer og adresse i \u003ca href=\u0022/profile\u0022\u003edin profil\u003c/a\u003e ikke samsvarer med det du bruker i Vipps. Telefon: \u003cstrong\u003e{phone}\u003c/strong\u003e Adresse: \u003cstrong\u003e{address}\u003c/strong\u003e\u003c/span\u003e","updatePhoneAddressQuestion":"Skal vi oppdatere profilen din med dette?","vippsAccountCreationSuccessful":"Takk for å ha logget inn! Vi har automatisk laget en bruker for deg, klikk deg inn på \u003ca href=\u0027/profile\u0027\u003eprofilen din\u003c/a\u003e for å se profilinstillingene dine!"},"ieBanner":{"warningSplitTextPartOne":"Viktig melding til deg som bruker Internet Explorer.","warningSplitTextPartTwo":"Microsoft kutter støtten til denne nettleseren","warningSplitTextPartThree":" (kilde).","warningSplitTextPartFour":"Fra og med 15. mars vil det ikke lenger være mulig å bruke Internet Explorer for å handle hos Komplett. Vi anbefaler å bytte til en annen nettleser for få en god og sikker handleopplevelse.","warning":"Viktig melding til deg som bruker Internet Explorer.% Microsoft kutter støtten til denne nettleseren %(kilde)%. Vi anbefaler å bytte til en annen nettleser for å få en god og sikker handleopplevelse."}},"gdpr":{"consents":{"info":{"privacyPolicy":{"page":"/kundeservice/om-komplett/personvern/"}}}},"productPage":{"mainInfo":{"telia":{"perMonth":"pr. mnd."}}},"loyaltyErrors":{"b2b":{"error":"Lojalitetsprogrammet er foreløpig kun tilgjengelig for privatkunder"},"alreadyMember":{"error":"Du er allerede et klubbmedlem"}}};</script>
+<script>window.__INIT__DATA = {"hits":"19796","logo":{"logoUrl":"/logo/310/logo_b2c.svg","logoUrlNoPayOff":"/logo/310/no_payoff/logo_b2c.svg","favicon":"/logo/310/favicon.ico"},"features":["CookieConsentPopup","BenefitSlideIn","UseLoyaltyProgramApiV2","VippsLoginInHeader","NewsletterConsentPopup","ShowVippsProfileMismatchNotification","ShowAutomaticLadderBenefitsInSlideIn"],"storeId":"310","topMenu":{"navigationElements":[{"categoryId":"53ebb868-158c-47ef-ae80-1111e576f9a6","text":"Alle produkter","iconContent":"PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgd2lkdGg9IjE4cHQiCiAgIGhlaWdodD0iMThwdCIKICAgdmlld0JveD0iMCAwIDE4IDE4IgogICBpZD0ic3ZnMiIKICAgdmVyc2lvbj0iMS4xIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIwLjkxIHIxMzcyNSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iYmFycy5zdmciPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTEwIj4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzOCIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjE5MjAiCiAgICAgaW5rc2NhcGU6d2luZG93LWhlaWdodD0iMTEzNyIKICAgICBpZD0ibmFtZWR2aWV3NiIKICAgICBzaG93Z3JpZD0iZmFsc2UiCiAgICAgaW5rc2NhcGU6em9vbT0iNS45IgogICAgIGlua3NjYXBlOmN4PSIyMCIKICAgICBpbmtzY2FwZTpjeT0iMjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjQ0NzIiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9Ii04IgogICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjEiCiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ic3ZnMiIgLz4KICA8cGF0aAogICAgIGQ9Im0gMi4yMTMzODY5LDE3LjA3MTY5OSAwLC0xLjE5NDU0OSBjIDAsLTAuMTYyNzczIDAuMDU5MDEyLC0wLjMwMTkxOCAwLjE3NDQ2ODIsLTAuNDIwMDYyIDAuMTE1NDU3NSwtMC4xMTgxNDEgMC4yNTE0Mzk5LC0wLjE3ODUyNSAwLjQxMDUxMzYsLTAuMTc4NTI1IGwgMTIuODQzOTQwMywwIGMgMC4xNTkwNzMsMCAwLjI5NTA1NywwLjA2MDM4IDAuNDEwNTE0LDAuMTc4NTI1IDAuMTE1NDU2LDAuMTE4MTQ0IDAuMTc0NDY4LDAuMjU3Mjg5IDAuMTc0NDY4LDAuNDIwMDYyIGwgMCwxLjE5NDU0OSBjIDAsMC4xNjI3NzQgLTAuMDU5MDEsMC4zMDE5MTkgLTAuMTc0NDY4LDAuNDIwMDYxIC0wLjExNTQ1NywwLjExODE0MiAtMC4yNTE0NDEsMC4xNzg1MjYgLTAuNDEwNTE0LDAuMTc4NTI2IGwgLTEyLjg0Mzk0MDMsMCBjIC0wLjE1OTA3MzcsMCAtMC4yOTUwNTYxLC0wLjA2MDM4IC0wLjQxMDUxMzYsLTAuMTc4NTI2IEMgMi4yNzIzOTg1LDE3LjM3MzYxOCAyLjIxMzM4NjksMTcuMjM0NDczIDIuMjEzMzg2OSwxNy4wNzE2OTkgWiBtIDAsLTQuNzc4MTk2IDAsLTEuMTk3MTc1IGMgMCwtMC4xNjAxNDggMC4wNTkwMTIsLTAuMzAxOTE5IDAuMTc0NDY4MiwtMC40MjAwNjEgMC4xMTU0NTc1LC0wLjExODE0MiAwLjI1MTQzOTksLTAuMTc1OTAxIDAuNDEwNTEzNiwtMC4xNzU5MDEgbCAxMi44NDM5NDAzLDAgYyAwLjE1OTA3MywwIDAuMjk1MDU3LDAuMDU3NzYgMC40MTA1MTQsMC4xNzU5MDEgMC4xMTU0NTYsMC4xMTgxNDIgMC4xNzQ0NjgsMC4yNTk5MTMgMC4xNzQ0NjgsMC40MjAwNjEgbCAwLDEuMTk3MTc1IGMgMCwwLjE2MDE0OCAtMC4wNTkwMSwwLjMwMTkxOSAtMC4xNzQ0NjgsMC40MjAwNjEgLTAuMTE1NDU3LDAuMTE4MTQyIC0wLjI1MTQ0MSwwLjE3NTkwMSAtMC40MTA1MTQsMC4xNzU5MDEgbCAtMTIuODQzOTQwMywwIGMgLTAuMTU5MDczNywwIC0wLjI5NTA1NjEsLTAuMDU3NzYgLTAuNDEwNTEzNiwtMC4xNzU5MDEgQyAyLjI3MjM5ODUsMTIuNTk1NDIyIDIuMjEzMzg2OSwxMi40NTM2NTEgMi4yMTMzODY5LDEyLjI5MzUwMyBaIG0gMCwtNC43ODA4MjE5IDAsLTEuMTk0NTQ5MyBjIDAsLTAuMTYyNzczMyAwLjA1OTAxMiwtMC4zMDE5MTkxIDAuMTc0NDY4MiwtMC40MjAwNjExIEMgMi41MDMzMTI2LDUuNzc5OTI4NiAyLjYzOTI5NSw1LjcxOTU0NDYgMi43OTgzNjg3LDUuNzE5NTQ0NiBsIDEyLjg0Mzk0MDMsMCBjIDAuMTU5MDczLDAgMC4yOTUwNTcsMC4wNjAzODQgMC40MTA1MTQsMC4xNzg1MjYxIDAuMTE1NDU2LDAuMTE4MTQyIDAuMTc0NDY4LDAuMjU3Mjg3OCAwLjE3NDQ2OCwwLjQyMDA2MTEgbCAwLDEuMTk0NTQ5MyBjIDAsMC4xNjI3NzMzIC0wLjA1OTAxLDAuMzAxOTE5MSAtMC4xNzQ0NjgsMC40MjAwNjEyIC0wLjExNTQ1NywwLjExODE0MiAtMC4yNTE0NDEsMC4xNzg1MjYgLTAuNDEwNTE0LDAuMTc4NTI2IGwgLTEyLjg0Mzk0MDMsMCBjIC0wLjE1OTA3MzcsMCAtMC4yOTUwNTYxLC0wLjA2MDM4MSAtMC40MTA1MTM2LC0wLjE3ODUyNiBDIDIuMjcyMzk4NSw3LjgxNDYwMDIgMi4yMTMzODY5LDcuNjc1NDU0NCAyLjIxMzM4NjksNy41MTI2ODExIFoiCiAgICAgaWQ9InBhdGg0IgogICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgc3R5bGU9ImZpbGw6IzM4MzgzOCIgLz4KPC9zdmc+Cg==","hideOnDesktop":false,"hideOnMobile":false,"type":"Group","onlyVisibleOnMobile":false}],"desktopNavigationBar":[{"categoryId":"87046b00-4cea-e253-24c8-cab23631a8e2","text":"Komplett Club","hideOnDesktop":false,"hideOnMobile":false,"type":"Link","url":"/kampanje/komplett-club-tilbud","onlyVisibleOnMobile":false},{"categoryId":"2cfe418b-cc7e-4684-bee0-7966270fef73","text":"Ukens tilbud","hideOnDesktop":false,"hideOnMobile":false,"type":"Link","url":"/kampanje/ukens-beste-kjoep","onlyVisibleOnMobile":false},{"categoryId":"e32bc471-fe29-47f9-a5a2-39f24d8e3f40","text":"Komplett-PC","hideOnDesktop":false,"hideOnMobile":false,"type":"Link","url":"/category/10306/pc-nettbrett/komplett-pc","onlyVisibleOnMobile":false},{"categoryId":"bbe58957-b790-5e02-3882-ea503deedfce","text":"Gavekort","hideOnDesktop":false,"hideOnMobile":false,"type":"Link","url":"/gavekort","onlyVisibleOnMobile":false},{"categoryId":"81f0f762-608a-42b0-ac57-f65a52d25425","text":"Komplett Bedrift","hideOnDesktop":false,"hideOnMobile":false,"type":"Link","url":"https://www.komplettbedrift.no/?utm_source=komplett.no\u0026utm_medium=referral","onlyVisibleOnMobile":false},{"categoryId":"7fc69abc-df7a-2858-b8a1-6ed7a0b743e3","text":"Nyheter","iconContent":"","hideOnDesktop":false,"hideOnMobile":false,"type":"Link","url":"/kampanje/92763/nyheter","onlyVisibleOnMobile":false}]},"country":"NO","beta":false,"siteCss":"/static/caas/0.56.0/dist/styles_310.css","mainClientJs":"/static/caas/0.56.0/dist/main.js","vendorJs":"/static/caas/0.56.0/dist/vendor.js","mainClientEs5":"/static/caas/0.56.0/dist/mainEs5.js","vendorEs5":"/static/caas/0.56.0/dist/vendorEs5.js","staticFilesPath":"/static/caas/0.56.0/dist"};</script>
+
+<script>
+    (function() {
+        var check = document.createElement('script');
+        if (!('noModule' in check) && 'onbeforeload' in check) {
+            var support = false;
+            document.addEventListener('beforeload', function(e) {
+                if (e.target === check) {
+                    support = true;
+                } else if (!e.target.hasAttribute('nomodule') || !support) {
+                    return;
+                }
+                e.preventDefault();
+            }, true);
+
+            check.type = 'module';
+            check.src = '.';
+            document.head.appendChild(check);
+            check.remove();
+        }
+    }());
+</script>
+
+  <script type="module" src="/static/caas/0.56.0/dist/vendor.js"></script>
+  <script type="module" src="/static/caas/0.56.0/dist/main.js"></script>
+  <script nomodule src="/static/caas/0.56.0/dist/vendorEs5.js" defer></script>
+  <script nomodule src="/static/caas/0.56.0/dist/mainEs5.js" defer></script>
+
+        </div>
+
+        
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,fetch,Array.prototype.entries,Array.prototype.findIndex,Array.prototype.find,Array.prototype.includes,Map,Set,Array.prototype.@@iterator,navigator.sendBeacon,Object.assign,String.prototype.repeat" nomodule defer></script>
+
+    <script src="/static/chrome/2544.0.0/JsBundles/jscomponents-bundle.js" defer></script>
+    <script src="/static/chrome/2544.0.0/JsBundles/responsive-bundle.js" defer></script>
+    <script src="/static/chrome/2544.0.0/JsBundles/viewModels-bundle.js" defer></script>
+
+<script src="/static/chrome/2544.0.0/pwa/uninstall-service-worker.js" defer></script>
+
+        
+    
+
+    </body>
+</html>
