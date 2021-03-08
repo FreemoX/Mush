@@ -89,7 +89,7 @@ sudo a2enmod rewrite
 sudo systemctl restart apache2.service
 echo ""
 echo "Forma LMS er nå tilgjengelig på følgende IP-adresser:"
-ip a | grep "inet "
+ip a | grep "inet 192."
 echo ""
 echo ""
 echo "Husk å last ned config.php filen FØR du går videre!"
