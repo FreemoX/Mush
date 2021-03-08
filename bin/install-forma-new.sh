@@ -9,7 +9,22 @@ ses() {
 
 installphp() {
     sudo apt install \
-    $1 libapache2-mod-$1 $1-common $1-mysql $1-gmp $1-ldap $1-curl $1-intl $1-mbstring $1-xmlrpc $1-gd $1-bcmath $1-xml $1-cli $1-zip
+    $1 \
+    libapache2-mod-$1 \
+    $1-common \
+    $1-mysql \
+    $1-gmp \
+    $1-ldap \
+    $1-curl \
+    $1-intl \
+    $1-mbstring \
+    $1-xmlrpc \
+    $1-gd \
+    $1-bcmath \
+    $1-xml \
+    $1-cli \
+    $1-zip \
+    -y
 }
 
 updatePHPini() {
@@ -60,6 +75,7 @@ sudo unzip -d /var/www/ /tmp/formalms-v2.0.zip
 sudo cp /var/www/formalms/* /var/www/html/ -r
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 755 /var/www/html
+sudo touch /etc/apache2/sites-available/forma.cnf
 cat > /etc/apache2/sites-available/forma.cnf << EOF
 <VirtualHost *:80>
      ServerAdmin fr@norditc.no
@@ -103,4 +119,5 @@ echo ""
 sudo cp /var/www/html/install /home/norditc/formalmsinstall -r
 sudo rm /var/www/html/install -r
 echo "Installasjonsmappen er nå flyttet til hjemmappen for norditc brukeren, just in case"
+sudo rm formalms-v2.0.zip
 exit
