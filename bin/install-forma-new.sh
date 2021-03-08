@@ -85,8 +85,9 @@ sudo unzip -d /var/www/ /tmp/formalms-v2.0.zip
 sudo cp /var/www/formalms/* /var/www/html/ -r
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 755 /var/www/html
+sudo rm /etc/apache2/sites-available/forma.cnf
 sudo touch /etc/apache2/sites-available/forma.cnf
-cat > /etc/apache2/sites-available/forma.cnf << ENDOFLINES
+sudo cat > /etc/apache2/sites-available/forma.cnf << ENDOFLINES
 <VirtualHost *:80>
      ServerAdmin fr@norditc.no
      DocumentRoot /var/www/html
