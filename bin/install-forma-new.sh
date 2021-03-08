@@ -48,25 +48,25 @@ sudo apt update
 installphp php7.0
 updatePHPini 7.0
 sudo systemctl restart apache2.service
-sudo mysql <<EOF 2> /dev/null CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
-EOF
+sudo mysql <<ENDOFLINES 2> /dev/null CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
+ENDOFLINES
 [ $? -eq 0 ] && echo "Databasen forma ble opprettet" || echo "Databasen forma eksisterer allerede"
-sudo mysql <<EOF 2> /dev/null CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
-EOF
+sudo mysql <<ENDOFLINES 2> /dev/null CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
+ENDOFLINES
 [ $? -eq 0 ] && echo "Opprettet brukeren formalmsuser tilgjengelig fra localhost" || echo "Brukeren formalmsuser eksisterer allerede"
-sudo mysql <<EOF 2> /dev/null CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
-EOF
+sudo mysql <<ENDOFLINES 2> /dev/null CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
+ENDOFLINES
 [ $? -eq 0 ] && echo "Opprettet brukeren extformalmsuser tilgjengelig fra over alt" || echo "Brukeren extformalmsuser eksisterer allerede"
-sudo mysql <<EOF 2> /dev/null GRANT ALL ON forma.* TO 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
-EOF
+sudo mysql <<ENDOFLINES 2> /dev/null GRANT ALL ON forma.* TO 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
+ENDOFLINES
 [ $? -eq 0 ] && echo "Brukeren formalmsuser (lokal) har fått tilgang til databasen forma" || echo "Brukeren formalmsuser (lokal) fikk ikke tilgang til databasen forma"
-sudo mysql <<EOF 2> /dev/null GRANT ALL ON forma.* TO 'formalmsuser'@'%' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
-EOF
+sudo mysql <<ENDOFLINES 2> /dev/null GRANT ALL ON forma.* TO 'formalmsuser'@'%' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
+ENDOFLINES
 [ $? -eq 0 ] && echo "Brukeren extformalmsuser (ekstern) har fått tilgang til databasen forma" || echo "Brukeren extformalmsuser (ekstern) fikk ikke tilgang til databasen forma"
-sudo mysql <<EOF 2> /dev/null FLUSH PRIVIEGES;
-EOF
-sudo mysql <<EOF 2> /dev/null EXIT;
-EOF
+sudo mysql <<ENDOFLINES 2> /dev/null FLUSH PRIVIEGES;
+ENDOFLINES
+sudo mysql <<ENDOFLINES 2> /dev/null EXIT;
+ENDOFLINES
 cd /tmp
 sudo apt install wget -y
 wget -c "https://sourceforge.net/projects/forma/files/latest/download?source=files" -O formalms-v2.0.zip
@@ -76,7 +76,7 @@ sudo cp /var/www/formalms/* /var/www/html/ -r
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 755 /var/www/html
 sudo touch /etc/apache2/sites-available/forma.cnf
-cat > /etc/apache2/sites-available/forma.cnf << EOF
+cat > /etc/apache2/sites-available/forma.cnf << ENDOFLINES
 <VirtualHost *:80>
      ServerAdmin fr@norditc.no
      DocumentRoot /var/www/html
@@ -99,7 +99,7 @@ cat > /etc/apache2/sites-available/forma.cnf << EOF
             RewriteRule ^(.*) index.php [PT,L]
     </Directory>
 </VirtualHost>
-EOF && sleep 2
+ENDOFLINES && sleep 2
 sudo a2ensite forma.conf
 sudo a2enmod rewrite
 sudo systemctl restart apache2.service
@@ -120,4 +120,4 @@ sudo cp /var/www/html/install /home/norditc/formalmsinstall -r
 sudo rm /var/www/html/install -r
 echo "Installasjonsmappen er nå flyttet til hjemmappen for norditc brukeren, just in case"
 sudo rm formalms-v2.0.zip
-exit
+exit;
