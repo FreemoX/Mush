@@ -48,18 +48,27 @@ sudo apt update
 installphp php7.0
 updatePHPini 7.0
 sudo systemctl restart apache2.service
-sudo mysql -e CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
-[ $? -eq 0 ] && echo "Databasen forma ble opprettet" || echo "Databasen forma eksisterer allerede"
-sudo mysql -e CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
-[ $? -eq 0 ] && echo "Opprettet brukeren formalmsuser tilgjengelig fra localhost" || echo "Brukeren formalmsuser eksisterer allerede"
-sudo mysql -e CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
-[ $? -eq 0 ] && echo "Opprettet brukeren extformalmsuser tilgjengelig fra over alt" || echo "Brukeren extformalmsuser eksisterer allerede"
-sudo mysql -e GRANT ALL ON forma.* TO 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
-[ $? -eq 0 ] && echo "Brukeren formalmsuser (lokal) har fått tilgang til databasen forma" || echo "Brukeren formalmsuser (lokal) fikk ikke tilgang til databasen forma"
-sudo mysql -e GRANT ALL ON forma.* TO 'formalmsuser'@'%' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
-[ $? -eq 0 ] && echo "Brukeren extformalmsuser (ekstern) har fått tilgang til databasen forma" || echo "Brukeren extformalmsuser (ekstern) fikk ikke tilgang til databasen forma"
-sudo mysql -e FLUSH PRIVIEGES;
-sudo mysql -e EXIT;
+sudo mysql -u root -p <<ENDOFLINES
+CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
+CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
+GRANT ALL ON forma.* TO 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
+GRANT ALL ON forma.* TO 'formalmsuser'@'%' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+EXIT;
+ENDOFLINES
+# sudo mysql -e CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
+# [ $? -eq 0 ] && echo "Databasen forma ble opprettet" || echo "Databasen forma eksisterer allerede"
+# sudo mysql -e CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
+# [ $? -eq 0 ] && echo "Opprettet brukeren formalmsuser tilgjengelig fra localhost" || echo "Brukeren formalmsuser eksisterer allerede"
+# sudo mysql -e CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
+# [ $? -eq 0 ] && echo "Opprettet brukeren extformalmsuser tilgjengelig fra over alt" || echo "Brukeren extformalmsuser eksisterer allerede"
+# sudo mysql -e GRANT ALL ON forma.* TO 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
+# [ $? -eq 0 ] && echo "Brukeren formalmsuser (lokal) har fått tilgang til databasen forma" || echo "Brukeren formalmsuser (lokal) fikk ikke tilgang til databasen forma"
+# sudo mysql -e GRANT ALL ON forma.* TO 'formalmsuser'@'%' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
+# [ $? -eq 0 ] && echo "Brukeren extformalmsuser (ekstern) har fått tilgang til databasen forma" || echo "Brukeren extformalmsuser (ekstern) fikk ikke tilgang til databasen forma"
+# sudo mysql -e FLUSH PRIVIEGES;
+# sudo mysql -e EXIT;
 cd /tmp
 sudo apt install wget -y
 wget -c "https://sourceforge.net/projects/forma/files/latest/download?source=files" -O formalms-v2.0.zip
@@ -92,7 +101,8 @@ cat > /etc/apache2/sites-available/forma.cnf << ENDOFLINES
             RewriteRule ^(.*) index.php [PT,L]
     </Directory>
 </VirtualHost>
-ENDOFLINES && sleep 2
+ENDOFLINES
+sleep 2
 sudo a2ensite forma.conf
 sudo a2enmod rewrite
 sudo systemctl restart apache2.service
