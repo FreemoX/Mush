@@ -55,7 +55,6 @@ CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
 GRANT ALL ON forma.* TO 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
 GRANT ALL ON forma.* TO 'formalmsuser'@'%' IDENTIFIED BY 'Algebra2154' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
-EXIT;
 ENDOFLINES
 # sudo mysql -e CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
 # [ $? -eq 0 ] && echo "Databasen forma ble opprettet" || echo "Databasen forma eksisterer allerede"
