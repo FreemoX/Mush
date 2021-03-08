@@ -99,13 +99,13 @@ cat > /etc/apache2/sites-available/forma.cnf << EOF
             RewriteRule ^(.*) index.php [PT,L]
     </Directory>
 </VirtualHost>
-EOF
+EOF && sleep 2
 sudo a2ensite forma.conf
 sudo a2enmod rewrite
 sudo systemctl restart apache2.service
 echo ""
 echo "Forma LMS er nå tilgjengelig på følgende IP-adresser:"
-ip a | grep "inet 192." | cut -d " " -f 2 | cut -d "/" -f 1
+ip a | grep "inet 192." | cut -d " " -f 6 | cut -d "/" -f 1
 echo ""
 echo ""
 echo "Husk å last ned config.php filen FØR du går videre!"
