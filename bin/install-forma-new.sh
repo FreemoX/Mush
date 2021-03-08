@@ -86,8 +86,8 @@ sudo cp /var/www/formalms/* /var/www/html/ -r
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 755 /var/www/html
 sudo rm /etc/apache2/sites-available/forma.cnf
-sudo touch /etc/apache2/sites-available/forma.cnf
-sudo cat > /etc/apache2/sites-available/forma.cnf << ENDOFLINES
+sudo touch /etc/apache2/sites-available/forma.conf
+sudo cat > /etc/apache2/sites-available/forma.conf << ENDOFLINES
 <VirtualHost *:80>
      ServerAdmin fr@norditc.no
      DocumentRoot /var/www/html
