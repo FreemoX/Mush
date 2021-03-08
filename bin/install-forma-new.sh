@@ -48,10 +48,16 @@ sudo apt update
 installphp php7.0
 updatePHPini 7.0
 sudo systemctl restart apache2.service
+echo "Enter your MySQL root passord"
 sudo mysql -u root -p <<ENDOFLINES
 DROP DATABASE forma;
 DROP USER 'formalmsuser'@'localhost';
 DROP USER 'extformalmsuser'@'%';
+FLUSH PRIVILEGES;
+ENDOFLINES
+echo "Dropped existing database and users"
+echo "Enter your MySQL root passord"
+sudo mysql -u root -p <<ENDOFLINES
 CREATE DATABASE forma CHARACTER SET utf8 COLLATE utf8_general_ci;
 CREATE USER 'formalmsuser'@'localhost' IDENTIFIED BY 'Algebra2154';
 CREATE USER 'extformalmsuser'@'%' IDENTIFIED BY 'Algebra2154';
