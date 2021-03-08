@@ -101,6 +101,6 @@ echo "og at du er klar for å fjerne installasjonsmappen?"
 read -p "Ja, jeg er klar. Fjern installasjonsmappen! "
 echo ""
 sudo cp /var/www/html/install /home/norditc/formalmsinstall -r
-sudo rm /var/www/html/install
+sudo rm /var/www/html/install -r
 echo "Installasjonsmappen er nå flyttet til hjemmappen for norditc brukeren, just in case"
 exit
