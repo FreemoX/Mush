@@ -3,10 +3,13 @@
 nettverk1navn="Nord ITC AS - Intern"
 nettverk1id="159924d6305f5d89"
 
-echo "Hvilket nettverk ønsker du å koble til?"
-echo "[1] $nettverk1navn \| $nettverk1id"
-echo "[0] Avbryt"
-read -p "Mitt valg: " choice
+choosenetwork() {
+    echo "Hvilket nettverk ønsker du å koble til?"
+    echo "[1] $nettverk1navn | $nettverk1id"
+    echo "[9] Egendefinert"
+    echo "[0] Avbryt"
+    read -p "Mitt valg: " choice
+}
 
 if [ $choice -eq 0 ]; then
     echo "Ok, avslutter"
@@ -16,9 +19,22 @@ elif [ $choice -eq 1 ]; then
     valgtnettverknavn="$nettverk1navn"
     ztID="$nettverk1id"
     sleep 2
+elif [ $choice -eq 9 ]; then
+    echo "Ok, skriv inn nettverkskoden"
+    read -p "Nettverkskode: " ztID
+    echo ""
+    echo "Du skrev inn $ztID"
+    echo "Er dette korrekt?"
+    echo "[1] Ja"
+    echo "[0] Avbryt"
+    read -p "" choice
+    if [ $choice -eq 0 ]; then
+        echo "Ok, avbryter!"
+        sleep 2
+        exit
 else
-    echo "Ugyldig valg. Avslutter!"
-    exit
+    echo "Ugyldig valg!"
+    choosenetwork()
 fi
 
 clear
@@ -37,7 +53,6 @@ sudo zerotier-cli join $ztID
 
 echo "" && echo ""
 echo "ZeroTier er nå lastet ned, og maskinen har blitt med i nettverket"
-echo "Husk å godkjenn enheten på ZeroTier admin panelet"
+echo "Husk å godkjenn enheten på ZeroTier admin panelet fra lenken under"
+echo "https://my.zerotier.com/network/$ztID"
 echo ""
-echo "now fuck off"
-sleep 3
