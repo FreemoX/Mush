@@ -6,11 +6,13 @@ nettverk1id="159924d6305f5d89"
 choosenetwork() {
     echo "Hvilket nettverk ønsker du å koble til?"
     echo "[1] $nettverk1navn | $nettverk1id"
+    echo ""
     echo "[9] Egendefinert"
     echo "[0] Avbryt"
     read -p "Mitt valg: " choice
 }
 
+choosenetwork
 if [ $choice -eq 0 ]; then
     echo "Ok, avslutter"
     exit
@@ -27,14 +29,15 @@ elif [ $choice -eq 9 ]; then
     echo "Er dette korrekt?"
     echo "[1] Ja"
     echo "[0] Avbryt"
-    read -p "" choice
+    read -p "Mitt valg: " choice
     if [ $choice -eq 0 ]; then
         echo "Ok, avbryter!"
         sleep 2
         exit
+    fi
 else
     echo "Ugyldig valg!"
-    choosenetwork()
+    choosenetwork
 fi
 
 clear
