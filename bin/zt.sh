@@ -9,6 +9,7 @@ elif [ $# -gt 0 ] && [ "$1" == "help" ]; then
     echo "Languages:"
     echo "English: en"
     echo "Norwegian: no, nb, nn"
+    exit
 fi
 
 if [ $lang == "" ]; then
