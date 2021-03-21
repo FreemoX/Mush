@@ -58,6 +58,14 @@ choosenetwork() {
     read -p "$_MY_CHOICE: " choice
 }
 
+# Checks if "curl" is installed on the system
+iscurlinstalled() {
+    if ! command -v "curl" &> /dev/null
+    then
+        sudo apt update && sudo apt install "curl" -y
+    fi
+}
+
 choosenetwork
 if [ $choice -eq 0 ]; then # Abort the script
     echo "$_EXITING"
@@ -89,6 +97,8 @@ fi
 clear
 echo "$_ZT_DOWNLOAD_AND_INSTALL"
 echo "" && echo ""
+
+iscurlinstalled
 
 curl -s https://install.zerotier.com | sudo bash && wait # Installs the ZeroTier client
 
