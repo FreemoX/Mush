@@ -36,7 +36,7 @@ if [ "$lang" == "nb" ] || [ "$lang" == "nn" ]; then
     echo ""
 fi
 
-# Checks if the relevant language file is present. Defaults to English if it doesn't
+# Checks if the relevant language file is present. Defaults to English if it is not
 if test -f "$path/langs/$lang.sh"; then
     . $path/langs/$lang.sh
 else
