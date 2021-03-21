@@ -60,8 +60,7 @@ choosenetwork() {
 
 # Checks if "curl" is installed on the system
 iscurlinstalled() {
-    if ! command -v "curl" &> /dev/null
-    then
+    if ! command -v "curl" &> /dev/null; then
         sudo apt update && sudo apt install "curl" -y
     fi
 }
