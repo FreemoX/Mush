@@ -10,6 +10,7 @@
 
 # Grab the language code from the active language installed on the system
 lang=$(locale | grep LANG | cut -d= -f2 | cut -d_ -f1)
+path=$(pwd)
 
 # Allows manually overriding the language, or display the help text
 if [ $# -gt 0 ] && [ "$1" != "help" ]; then
@@ -27,53 +28,14 @@ if [ $lang == "" ]; then
     lang="en"
 fi
 
-# English translations
-if [ "$lang" == "en" ]; then
-    _ASSIGNED_LANGUAGE="Language was manually set to English"
-    _NETWORK_CHOICE="Which network would you like to join?"
-    _NETWORK_1_NAME="Nord ITC AS - Internal"
-    _NETWORK_CUSTOM="Custom"
-    _NETWORK_CONNECTING="Ok, connecting"
-    _NETWORK_ENTER_CODE="Ok, input the network ID"
-    _NETWORK_CODE="Network ID"
-    _NETWORK_ENTERED="You wrote"
-    _NETWORK_JOINING="Now joining the network"
-    _CANCEL="Cancel"
-    _MY_CHOICE="My choice"
-    _INVALID_OPTION="Invalid option"
-    _YES="Yes"
-    _NO="No"
-    _EXITING="Ok, aborting"
-    _VERIFY_CORRECT="Is this correct?"
-    _ZT_DOWNLOAD_AND_INSTALL="Downloading and installing the ZeroTier client"
-    _ZT_DOWNLOADED="ZeroTier is now downloaded"
-    _ZT_SUCCESSFUL="ZeroTier is now installed, and this machine has joined the network"
-    _ZT_APPROVE="Remember to approve this device on the ZeroTier admin panel from the URL below"
-# End of english translations
+if [ "$lang" == "nb" ] || [ "$lang" == "nn" ]; then
+    lang="no"
+fi
 
-# Norwegian translations
-elif [ "$lang" == "nb" ] || [ "$lang" == "nn" ] || [ "$lang" == "no" ]; then
-    _ASSIGNED_LANGUAGE="Språket var manuelt satt til Norsk"
-    _NETWORK_CHOICE="Hvilket nettverk ønsker du å koble til?"
-    _NETWORK_1_NAME="Nord ITC AS - Intern"
-    _NETWORK_CUSTOM="Egendefinert"
-    _NETWORK_CONNECTING="Ok, kobler til"
-    _NETWORK_ENTER_CODE="Ok, skriv inn nettverkskoden"
-    _NETWORK_CODE="Nettverkskode"
-    _NETWORK_ENTERED="Du skrev inn"
-    _NETWORK_JOINING="Blir nå med i nettverket"
-    _CANCEL="Avbryt"
-    _MY_CHOICE="Mitt valg"
-    _INVALID_OPTION="Ugyldig valg"
-    _YES="Ja"
-    _NO="Nei"
-    _EXITING="Ok, avslutter"
-    _VERIFY_CORRECT="Er dette korrekt?"
-    _ZT_DOWNLOAD_AND_INSTALL="Laster ned og installerer ZeroTier Klienten"
-    _ZT_DOWNLOADED="ZeroTier er nå lastet ned"
-    _ZT_SUCCESSFUL="ZeroTier er nå installert, og maskinen har blitt med i nettverket"
-    _ZT_APPROVE="Husk å godkjenn enheten på ZeroTier admin panelet fra lenken under"
-# End of norwegian translations
+if test -f "$path/langs/$lang.sh"; then
+    . $path/langs/$lang.sh
+else
+    . $path/langs/en.sh
 fi
 
 # Network IDs go here. Don't forget to assign additional network names in the translations accordingly
