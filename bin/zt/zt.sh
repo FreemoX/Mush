@@ -23,24 +23,24 @@ fi
 # Default to English if no valid language was inputted
 if [ $lang == "" ]; then
     lang="en"
-    echo ""
-    echo "$_ASSIGNED_LANGUAGE"
-    echo ""
 fi
 
 # Since Norwegian has several language codes, they will all default to the main lang code
 if [ "$lang" == "nb" ] || [ "$lang" == "nn" ]; then
     lang="no"
-    echo ""
-    echo "$_ASSIGNED_LANGUAGE"
-    echo ""
 fi
 
 # Checks if the relevant language file is present. Defaults to English if it is not
 if test -f "$path/langs/$lang.sh"; then
     . $path/langs/$lang.sh
+    echo ""
+    echo "$_ASSIGNED_LANGUAGE"
+    echo ""
 else
     . $path/langs/en.sh
+    echo ""
+    echo "Language not found. Reset to English"
+    echo ""
 fi
 
 # Network IDs go here. Don't forget to assign additional network names in the translations accordingly
