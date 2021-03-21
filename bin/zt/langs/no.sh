@@ -2,7 +2,7 @@
 
 # This is the norwegian translation file for zt.sh
 
-_ASSIGNED_LANGUAGE="Språket var manuelt satt til Norsk"
+_ASSIGNED_LANGUAGE="Språket er satt til Norsk"
 _NETWORK_CHOICE="Hvilket nettverk ønsker du å koble til?"
 _NETWORK_1_NAME="Nord ITC AS - Intern"
 _NETWORK_CUSTOM="Egendefinert"

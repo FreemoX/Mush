@@ -2,7 +2,7 @@
 
 # This is the english translation file for zt.sh
 
-_ASSIGNED_LANGUAGE="Language was manually set to English"
+_ASSIGNED_LANGUAGE="Language set to English"
 _NETWORK_CHOICE="Which network would you like to join?"
 _NETWORK_1_NAME="Nord ITC AS - Internal"
 _NETWORK_CUSTOM="Custom"

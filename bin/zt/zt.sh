@@ -2,9 +2,6 @@
 
 # TO DO
 #
-# - Ensure the script defaults to English if no valid languages are found on the system
-# TMPFIX = Override language with "./zt.sh en"
-#
 # - Add functionality to ask the user for the name of a manually inputted network
 #
 
@@ -26,12 +23,20 @@ fi
 # Default to English if no valid language was inputted
 if [ $lang == "" ]; then
     lang="en"
+    echo ""
+    echo "$_ASSIGNED_LANGUAGE"
+    echo ""
 fi
 
+# Since Norwegian has several language codes, they will all default to the main lang code
 if [ "$lang" == "nb" ] || [ "$lang" == "nn" ]; then
     lang="no"
+    echo ""
+    echo "$_ASSIGNED_LANGUAGE"
+    echo ""
 fi
 
+# Checks if the relevant language file is present. Defaults to English if it doesn't
 if test -f "$path/langs/$lang.sh"; then
     . $path/langs/$lang.sh
 else
@@ -59,7 +64,7 @@ if [ $choice -eq 0 ]; then # Abort the script
     exit
 elif [ $choice -eq 1 ]; then # Connect to network 1
     echo "$_NETWORK_CONNECTING $_NETWORK_1_NAME"
-    valgtnettverknavn="$_NETWORK_1_NAME"
+    chosennetwork_name="$_NETWORK_1_NAME"
     ztID="$networkid_1"
     sleep 2
 elif [ $choice -eq 9 ]; then # Manually input a network code
@@ -89,7 +94,7 @@ curl -s https://install.zerotier.com | sudo bash && wait # Installs the ZeroTier
 
 echo "" && echo ""
 echo "$_ZT_DOWNLOADED"
-echo "$_NETWORK_JOINING $valgtnettverknavn"
+echo "$_NETWORK_JOINING $chosennetwork_name"
 echo "$_NETWORK_CODE: $ztID"
 echo "" && echo ""
 
