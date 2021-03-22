@@ -13,6 +13,7 @@ if ! command -v "$cmdtt" &> /dev/null; then
         echo ""$cmdtt" has been installed"
         echo ""
         cmdttr="1"
+    fi
 else
     echo ""$cmdtt" is installed"
     cmdttr="1"
