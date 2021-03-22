@@ -62,20 +62,19 @@ choosenetwork() {
 . ../cmdtt.sh curl && wait
 if [ "$cmdttr" -eq 0 ]; then
     echo ""
-    echo "This script relies on curl to function,"
-    echo "but it could not be installed."
+    echo "$_RELIES_ON_CURL"
     echo ""
-    echo "Aborting"
+    echo "$_EXITING"
     exit 0
 elif [ "$cmdttr" -eq 1 ]; then
     echo ""
-    echo "Requirements present, continuing ..."
+    echo "$_REQUIREMENTS_PRESENT"
     echo ""
 else
     echo ""
-    echo "Unknown error!"
-    echo "Curl check failed with unknown error."
-    echo "Exiting"
+    echo "$_UNKNOWN_ERROR"
+    echo "$_CURL_UNKNOWN_ERROR_INSTALL"
+    echo "$_EXITING"
     exit 0
 fi
 
