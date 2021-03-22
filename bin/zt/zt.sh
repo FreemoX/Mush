@@ -59,11 +59,25 @@ choosenetwork() {
 }
 
 # Checks if "curl" is installed on the system
-iscurlinstalled() {
-    if ! command -v "curl" &> /dev/null; then
-        sudo apt update && sudo apt install "curl" -y
-    fi
-}
+. ../cmdtt.sh curl && wait
+if [ "$cmdttr" -eq 0 ]; then
+    echo ""
+    echo "This script relies on curl to function,"
+    echo "but it could not be installed."
+    echo ""
+    echo "Aborting"
+    exit 0
+elif [ "$cmdttr" -eq 1 ]; then
+    echo ""
+    echo "Requirements present, continuing ..."
+    echo ""
+else
+    echo ""
+    echo "Unknown error!"
+    echo "Curl check failed with unknown error."
+    echo "Exiting"
+    exit 0
+fi
 
 choosenetwork
 if [ $choice -eq 0 ]; then # Abort the script
